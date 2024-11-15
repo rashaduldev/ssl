@@ -6,9 +6,6 @@ const CommonNav = () => {
   const [isWomenOpen, setIsWomenOpen] = useState(false);
   const [isMenOpen, setIsMenOpen] = useState(false);
   const [isKidsOpen, setIsKidsOpen] = useState(false);
-  const [isFashionAccessoriesOpen, setIsFashionAccessoriesOpen] = useState(false);
-  const [isHomeTextileOpen, setIsHomeTextileOpen] = useState(false);
-  const [isNonTextileOpen, setIsNonTextileOpen] = useState(false);
 
   // Hover handlers for each dropdown
   const handleMouseEnter = (setState) => () => setState(true);
@@ -112,7 +109,7 @@ const CommonNav = () => {
                 </NavLink>
               </li>
               <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/women'}>
+                <NavLink to={'/gallery/women/footware'}>
                 FOOT WARE
                 </NavLink>
               </li>
@@ -149,7 +146,7 @@ const CommonNav = () => {
                 </NavLink>
               </li>
               <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/women'}>
+                <NavLink to={'/gallery/men/footware'}>
                 FOOT WARE
                 </NavLink>
               </li>
@@ -162,7 +159,7 @@ const CommonNav = () => {
             onMouseEnter={handleMouseEnter(setIsKidsOpen)}
             onMouseLeave={handleMouseLeave(setIsKidsOpen)}
           >
-            <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1">
+            <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1 uppercase">
               Kid&lsquo;s
               <IoIosArrowDown className="text-lg" />
             </button>
@@ -171,22 +168,22 @@ const CommonNav = () => {
               className={`absolute left-[135px] top-0 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 w-full ${isKidsOpen ? "block" : "hidden"}`}
             >
                <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/men/tops'}>
+                <NavLink to={'/gallery/kids/tops'}>
                     TOPS
                 </NavLink>
               </li>
               <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/men/jackets'}>
+                <NavLink to={'/gallery/kids/jackets'}>
                 JACKETS
                 </NavLink>
               </li>
               <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/men/nightware'}>
-                NIGHT WARE
+                <NavLink to={'/gallery/kids/underware'}>
+                UNDER WARE
                 </NavLink>
               </li>
               <li className="hover:text-blue-600 border-b border-gray-300 p-2">
-                <NavLink to={'/gallery/women'}>
+                <NavLink to={'/gallery/kids/footware'}>
                 FOOT WARE
                 </NavLink>
               </li>
@@ -196,61 +193,35 @@ const CommonNav = () => {
           {/* Fashion Accessories Button with Hover */}
           <li
             className="border-b border-gray-800 w-full p-2 relative group"
-            onMouseEnter={handleMouseEnter(setIsFashionAccessoriesOpen)}
-            onMouseLeave={handleMouseLeave(setIsFashionAccessoriesOpen)}
           >
-            <button className="text-gray-800 hover:text-blue-600 flex text-start items-center gap-1">
+           <NavLink to={'/gallery/fashion-accessories'}>
+           <button className="text-gray-800 hover:text-blue-600 flex  uppercase text-start items-center gap-1">
               Fashion Accessories
-              <IoIosArrowDown className="text-lg" />
             </button>
-            {/* Dropdown Menu for Fashion Accessories */}
-            <ul
-              className={`absolute left-32 top-4 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 w-full ${isFashionAccessoriesOpen ? "block" : "hidden"}`}
-            >
-              <li>Accessory 1</li>
-              <li>Accessory 2</li>
-              <li>Accessory 3</li>
-            </ul>
+           </NavLink>
+           
           </li>
 
           {/* Home Textile Button with Hover */}
           <li
             className="border-b border-gray-800 w-full p-2 relative group"
-            onMouseEnter={handleMouseEnter(setIsHomeTextileOpen)}
-            onMouseLeave={handleMouseLeave(setIsHomeTextileOpen)}
           >
-            <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1">
+           <NavLink to={'/gallery/home-textile'}>
+           <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1 uppercase">
               Home Textile
-              <IoIosArrowDown className="text-lg" />
             </button>
-            {/* Dropdown Menu for Home Textile */}
-            <ul
-              className={`absolute left-32 top-4 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 w-full ${isHomeTextileOpen ? "block" : "hidden"}`}
-            >
-              <li>Textile Item 1</li>
-              <li>Textile Item 2</li>
-              <li>Textile Item 3</li>
-            </ul>
+           </NavLink>
           </li>
 
           {/* Non Textile Button with Hover */}
           <li
             className="border-b border-gray-800 w-full p-2 relative group"
-            onMouseEnter={handleMouseEnter(setIsNonTextileOpen)}
-            onMouseLeave={handleMouseLeave(setIsNonTextileOpen)}
           >
-            <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1">
+           <NavLink to={'/gallery/non-textile'}>
+           <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1 uppercase">
               Non Textile
-              <IoIosArrowDown className="text-lg" />
             </button>
-            {/* Dropdown Menu for Non Textile */}
-            <ul
-              className={`absolute left-32 top-4 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 w-full ${isNonTextileOpen ? "block" : "hidden"}`}
-            >
-              <li>Non Textile Item 1</li>
-              <li>Non Textile Item 2</li>
-              <li>Non Textile Item 3</li>
-            </ul>
+           </NavLink>
           </li>
         </ul>
       </li>

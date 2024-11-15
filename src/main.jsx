@@ -16,6 +16,10 @@ import Errorpage from './Pages/Errorpage';
 import Organogram from './Pages/Organogram';
 import MissionInfographic from './Pages/Mission';
 import Md from './Pages/Md';
+import CategoryDisplay from './Pages/CategoryDisplay';
+import FashionAccessories from './Pages/FashionAccessories';
+import HomeTextile from './Pages/HomeTextile';
+import NonTextile from './Pages/NonTextile';
 
 
 const router = createBrowserRouter([
@@ -57,24 +61,20 @@ const router = createBrowserRouter([
         element: <Md/>,
       },
       {
-        path: "/gallery/women",
-        element: <Md/>,
+        path: "/gallery/:category/:subcategory",
+        element: <CategoryDisplay/>,
       },
       {
-        path: "/our-company/md",
-        element: <Md/>,
+        path: "/gallery/fashion-accessories",
+        element: <FashionAccessories/>,
       },
       {
-        path: "/our-company/md",
-        element: <Md/>,
+        path: "/gallery/home-textile",
+        element: <HomeTextile/>,
       },
       {
-        path: "/our-company/md",
-        element: <Md/>,
-      },
-      {
-        path: "/our-company/md",
-        element: <Md/>,
+        path: "/gallery/non-textile",
+        element: <NonTextile/>,
       },
       {
         path: "/faq",

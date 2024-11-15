@@ -6,8 +6,8 @@ const Md = () => {
     <Nav isVisible={true}/>
           <div className="border border-gray-300 rounded-lg shadow-lg container mx-auto my-8 bg-white mt-36">
       {/* Top Border */}
-      <div className="h-4 bg-red-600 relative">
-        <div className="absolute inset-x-0 top-0 h-4 bg-red-800" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 0% 100%)' }}></div>
+      <div className="h-10 bg-red-600 relative">
+        <div className="absolute inset-x-0 top-0 h-10 bg-red-800" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 0% 100%)' }}></div>
       </div>
       
       {/* Content */}
@@ -54,8 +54,8 @@ const Md = () => {
       </div>
 
       {/* Bottom Border */}
-      <div className="h-4 bg-red-600 relative">
-        <div className="absolute inset-x-0 top-0 h-4 bg-red-800" style={{ clipPath: 'polygon(100% 0%, 0% 0%, 100% 100%)' }}></div>
+      <div className="h-10 bg-red-600 relative">
+        <div className="absolute inset-x-0 top-0 h-10 bg-red-800" style={{ clipPath: 'polygon(100% 0%, 0% 0%, 100% 100%)' }}></div>
       </div>
       
       {/* Footer */}

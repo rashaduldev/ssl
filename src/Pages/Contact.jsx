@@ -12,17 +12,17 @@ const ContactPage = () => {
          <div className="w-full mt-28">
       {/* Header Section */}
       <div
-        className="relative w-full h-96 bg-cover bg-center flex items-center justify-center"
-        style={{
-          backgroundImage: "url('https://i.ibb.co.com/zSVCqkm/images-1.jpg')", // Replace with your image URL
-        }}
-      >
-        <div className="absolute inset-0 bg-black opacity-70"></div>
-        <h1 className="relative text-white text-5xl font-bold z-10">CONTACT</h1>
-        <nav className="absolute bottom-14 text-white z-10">
-          <span>HOME/ CONTACT US</span>
-        </nav>
-      </div>
+           className="h-40 relative mt-[111px]"
+           style={{
+             backgroundImage: `url("https://i.ibb.co.com/zSVCqkm/images-1.jpg")`,
+             backgroundSize: "cover",
+             backgroundPosition: "center",
+           }}
+         >
+           <div className="container mx-auto">
+             <h1 className="absolute top-[40%]  text-white "><span className="text-4xl uppercase">Contact page</span> <br /> <span>home/contact</span></h1>
+           </div>
+           </div>
 
       {/* Contact Info Section */}
       <section className="text-center py-12 mt-5">

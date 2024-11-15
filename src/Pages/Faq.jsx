@@ -1,85 +1,142 @@
-import { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
-import Nav from '../components/Navber/Nav';
+// import { useState } from "react";
+// import Nav from "../components/Navber/Nav";
+// import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-const faqdata = [
-    {
-        id: 1,
-        question: "What is the return policy?",
-        answer: "Our return policy allows for returns within 30 days of purchase with a valid receipt. Items must be in original condition."
-    },
-    {
-        id: 2,
-        question: "How do I track my order?",
-        answer: "You can track your order by logging into your account and viewing your order history. A tracking number will be provided once your order is shipped."
-    },
-    {
-        id: 3,
-        question: "Do you offer international shipping?",
-        answer: "Yes, we offer international shipping to select countries. Shipping fees and delivery times vary depending on the destination."
-    },
-    {
-        id: 4,
-        question: "How can I contact customer support?",
-        answer: "You can contact our customer support team via email at support@example.com or by calling our toll-free number at 1-800-123-4567."
-    }
-];
+// const Faq = () => {
+//   const faqData = [
+//     { question: "Why shouldn't we trust atoms?", answer: "They make up everything" },
+//     { question: "What do you call someone with no body and no nose?", answer: "Nobody knows." },
+//     { question: "What's the object-oriented way to become wealthy?", answer: "Inheritance." },
+//     { question: "How many tickles does it take to tickle an octopus?", answer: "Ten-tickles!" },
+//     { question: "What is: 1 + 1?", answer: "Depends on who you are asking." },
+//   ];
+
+//   const [activeIndex, setActiveIndex] = useState(null);
+
+//   const toggleFAQ = (index) => {
+//     setActiveIndex(activeIndex === index ? null : index);
+//   };
+
+//   return (
+//     <div>
+//       <Nav isVisible={true} />
+//       <div className="mt-[111px] container mx-auto">
+//         <div
+//           className="h-40 relative"
+//           style={{
+//             backgroundImage: `url("https://i.ibb.co/4jK4Xx1/download.jpg")`,
+//             backgroundSize: "cover",
+//             backgroundPosition: "center",
+//           }}
+//         >
+//           <div className="container mx-auto">
+//             <h1 className="absolute top-[40%] text-4xl text-white uppercase mx-20">Faq page</h1>
+//           </div>
+//         </div>
+//         <div className="faq-container px-4 py-8">
+//           <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
+//           {faqData.map((faq, index) => (
+//             <div
+//               key={index}
+//               className={`faq border p-4 mb-4 rounded-lg ${
+//                 activeIndex === index ? "bg-gray-100" : "bg-white"
+//               }`}
+//             >
+//               <div className="flex justify-between items-center">
+//                 <h3 className="font-semibold text-lg">{faq.question}</h3>
+//                 <button onClick={() => toggleFAQ(index)}>
+//                   {activeIndex === index ? (
+//                     <MdKeyboardArrowUp size={24} />
+//                   ) : (
+//                     <MdKeyboardArrowDown size={24} />
+//                   )}
+//                 </button>
+//               </div>
+//               {activeIndex === index && (
+//                 <p className="faq-text mt-2 text-gray-600">{faq.answer}</p>
+//               )}
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Faq;
+
+import { useState } from 'react';
+import Nav from "../components/Navber/Nav";
 
 const Faq = () => {
-    const [openIndex, setOpenIndex] = useState(null);
+  const [openItem, setOpenItem] = useState(null);
 
-    const toggleCollapse = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
-    };
+  const toggleItem = (id) => {
+    setOpenItem(openItem === id ? null : id);
+  };
 
-    return (
-       <div>
-        <Nav isVisible={true}/>
-         <div className="flex flex-col lg:flex-row justify-center lg:my-64 my-8 mt-[120px] lg:gap-72 gap-12 lg:mx-48 px-4 lg:px-0 py-6">
-                <div className='text-center lg:text-left'>
-                    <h1 className="text-4xl font-bold">
-                        Frequently Asked <br /> Questions
-                    </h1>
-                    <p className='mt-6 text-xl'>
-                        Explore our eLearning platform FAQ section for quick <br className='hidden lg:inline' />
-                        solutions to common queries, ensuring a seamless <br className='hidden lg:inline' />
-                        learning journey.
-                    </p>
+  const faqs = [
+    { id: 1, question: 'What is Lorem Ipsum?', answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+    { id: 2, question: 'Where does it come from?', answer: 'Contrary to popular belief, Lorem Ipsum is not simply random text.' },
+    { id: 3, question: 'Why do we use it?', answer: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { id: 4, question: 'Where can I get some?', answer: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.' },
+    { id: 5, question: 'What is Lorem Ipsum?', answer: 'It has survived not only five centuries, but also the leap into electronic typesetting.' },
+    { id: 6, question: 'Where does it come from?', answer: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.' },
+    { id: 7, question: 'Why do we use it?', answer: 'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.' },
+  ];
+
+  return (
+   <div>
+     <Nav isVisible={true} />
+       {/* <div className="mt-[111px] container mx-auto"> */}
+         <div
+           className="h-40 relative mt-[111px]"
+           style={{
+             backgroundImage: `url("https://i.ibb.co/4jK4Xx1/download.jpg")`,
+             backgroundSize: "cover",
+             backgroundPosition: "center",
+           }}
+         >
+           <div className="container mx-auto">
+             <h1 className="absolute top-[40%] text-4xl text-white uppercase mx-20">Faq page</h1>
+           </div>
+           </div>
+     <section className="bg-gray-50 min-h-screen py-10">
+      <div className="container mx-auto px-6">
+        <div className="text-center pb-6">
+          <h2 className="text-3xl font-semibold relative inline-block pb-2">
+            FAQ
+            <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-16 h-1 bg-pink-500"></span>
+          </h2>
+        </div>
+        <div className="bg-white shadow-lg rounded-lg p-6 max-w-3xl mx-auto">
+          {faqs.map((faq) => (
+            <div
+              key={faq.id}
+              className="border-b border-gray-200"
+            >
+              <button
+                className="w-full text-left flex items-center justify-between py-4 px-6 text-gray-700 hover:bg-pink-50 focus:outline-none focus:ring focus:ring-pink-300"
+                onClick={() => toggleItem(faq.id)}
+              >
+                <span className="flex items-center">
+                  <span className="bg-pink-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-4">{faq.id}</span>
+                  {faq.question}
+                </span>
+                <span>{openItem === faq.id ? '-' : '+'}</span>
+              </button>
+              {openItem === faq.id && (
+                <div className="px-6 py-4 text-gray-600 text-sm">
+                  {faq.answer}
                 </div>
-                <div className="w-full lg:w-[700px]">
-                    {faqdata.map((item, index) => (
-                        <div key={item.id} className="bg-base-200 my-2 rounded-lg">
-                            <div
-                                className="flex items-center justify-between p-4 cursor-pointer"
-                                onClick={() => toggleCollapse(index)}
-                            >
-                                <span className="text-lg lg:text-xl font-medium flex gap-2">
-                                    <h4 className='font-bold'>Q:{item.id}</h4>
-                                    {item.question}
-                                </span>
-                                {openIndex === index ? (
-                                    <button className='flex items-center btn bg-[#251818] hover:bg-[#201313] text-[#ffffff]'>
-                                        <p>Answer</p>
-                                        <FaChevronUp className="text-xl" />
-                                    </button>
-                                ) : (
-                                    <button className='flex items-center btn bg-[#1d1010] hover:bg-[#1a1010] text-[#ffffff]'>
-                                        <p>Answer</p>
-                                        <FaChevronDown className="text-xl" />
-                                    </button>
-                                )}
-                            </div>
-                            {openIndex === index && (
-                                <div className="p-4">
-                                    <p>{item.answer}</p>
-                                </div>
-                            )}
-                        </div>
-                    ))}
-                </div>
-     </div>
-       </div>
-    );
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+   </div>
+  );
 };
 
 export default Faq;
