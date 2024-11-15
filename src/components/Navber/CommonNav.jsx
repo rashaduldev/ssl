@@ -29,8 +29,8 @@ const CommonNav = () => {
           <IoIosArrowDown className="text-lg" />
         </button>
         {/* Dropdown Menu for OUR COMPANY */}
-        <ul className="absolute left-0 mt-0 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 w-full hidden group-hover:block">
-          <li className="border-b border-gray-800 w-full p-2">
+        <ul className="absolute left-0 mt-0 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 hidden group-hover:block w-40">
+          <li className="border-b border-gray-800 w-full p-2 uppercase">
             <NavLink
               to="/our-company/mission"
               className={({ isActive }) =>
@@ -40,7 +40,7 @@ const CommonNav = () => {
               Mission
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2">
+          <li className="border-b border-gray-800 w-full p-2 uppercase">
             <NavLink
               to="/our-company/organogram"
               className={({ isActive }) =>
@@ -48,6 +48,26 @@ const CommonNav = () => {
               }
             >
               Organogram
+            </NavLink>
+          </li>
+          <li className="border-b border-gray-800 w-full p-2 uppercase">
+            <NavLink
+              to="/our-company/goal"
+              className={({ isActive }) =>
+                isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
+              }
+            >
+              Company goal
+            </NavLink>
+          </li>
+          <li className="border-b border-gray-800 w-full p-2">
+            <NavLink
+              to="/our-company/aboutus"
+              className={({ isActive }) =>
+                isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
+              }
+            >
+              ABOUT US
             </NavLink>
           </li>
           <li className="border-b border-gray-800 w-full p-2">
@@ -64,12 +84,22 @@ const CommonNav = () => {
       </li>
       <li>
         <NavLink
-          to="/ourproducts"
+          to="/ourservices"
           className={({ isActive }) =>
             isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
           }
         >
           OUR SERVICES
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/ouroffered"
+          className={({ isActive }) =>
+            isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
+          }
+        >
+          OUR OFFERED
         </NavLink>
       </li>
       <li className="relative group">

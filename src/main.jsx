@@ -8,7 +8,6 @@ import {
 import Root from './Root/Root';
 import Homepage from './Pages/Homepage';
 import AboutUs from './Pages/AboutUs';
-import ProductPage from './Pages/Products';
 import Faq from './Pages/Faq';
 import ContactPage from './Pages/Contact';
 import ProductGallery from './Pages/ProductGellary';
@@ -20,6 +19,9 @@ import CategoryDisplay from './Pages/CategoryDisplay';
 import FashionAccessories from './Pages/FashionAccessories';
 import HomeTextile from './Pages/HomeTextile';
 import NonTextile from './Pages/NonTextile';
+import ServicesPage from './Pages/ServicesPage';
+import OfferedServices from './Pages/OfferedServices';
+import CompanyGoals from './Pages/CompanyGoals';
 
 
 const router = createBrowserRouter([
@@ -33,12 +35,20 @@ const router = createBrowserRouter([
         element: <Homepage/>,
       },
       {
-        path: "/aboutus",
+        path: "/our-company/aboutus",
         element: <AboutUs/>,
       },
       {
-        path: "/ourproducts",
-        element: <ProductPage/>,
+        path: "/our-company/goal",
+        element: <CompanyGoals/>,
+      },
+      {
+        path: "/ourservices",
+        element: <ServicesPage/>,
+      },
+      {
+        path: "/ouroffered",
+        element: <OfferedServices/>,
       },
       {
         path: "/our-company/organogram",

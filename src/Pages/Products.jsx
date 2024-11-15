@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from '../components/Navber/Nav';
 
 // Mock data for products (replace with your real data)
@@ -39,6 +38,7 @@ const VideoSection = () => (
 );
 
 // Component for individual product
+// eslint-disable-next-line react/prop-types
 const ProductCard = ({ name, imageUrl }) => (
   <div className="bg-white p-4 rounded shadow-md text-center">
     <img src={imageUrl} alt={name} className="w-full h-32 object-contain mb-2" />
