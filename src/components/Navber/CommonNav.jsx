@@ -60,6 +60,16 @@ const CommonNav = () => {
               Company goal
             </NavLink>
           </li>
+          <li className="border-b border-gray-800 w-full p-2 uppercase">
+            <NavLink
+              to="/our-company/compliance"
+              className={({ isActive }) =>
+                isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
+              }
+            >
+             Compliance
+            </NavLink>
+          </li>
           <li className="border-b border-gray-800 w-full p-2">
             <NavLink
               to="/our-company/aboutus"

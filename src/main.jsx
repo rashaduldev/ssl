@@ -22,6 +22,7 @@ import NonTextile from './Pages/NonTextile';
 import ServicesPage from './Pages/ServicesPage';
 import OfferedServices from './Pages/OfferedServices';
 import CompanyGoals from './Pages/CompanyGoals';
+import CompliancePage from './Pages/Compliance';
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/our-company/goal",
         element: <CompanyGoals/>,
+      },
+      {
+        path: "/our-company/compliance",
+        element: <CompliancePage/>,
       },
       {
         path: "/ourservices",
