@@ -20,9 +20,10 @@ import FashionAccessories from './Pages/FashionAccessories';
 import HomeTextile from './Pages/HomeTextile';
 import NonTextile from './Pages/NonTextile';
 import ServicesPage from './Pages/ServicesPage';
-import OfferedServices from './Pages/OfferedServices';
 import CompanyGoals from './Pages/CompanyGoals';
 import CompliancePage from './Pages/Compliance';
+import QualityPage from './Pages/QualityPage';
+import CareerForm from './Pages/CareerForm';
 
 
 const router = createBrowserRouter([
@@ -52,8 +53,8 @@ const router = createBrowserRouter([
         element: <ServicesPage/>,
       },
       {
-        path: "/ouroffered",
-        element: <OfferedServices/>,
+        path: "/quality",
+        element: <QualityPage/>,
       },
       {
         path: "/our-company/organogram",
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery/non-textile",
         element: <NonTextile/>,
+      },
+      {
+        path: "/career",
+        element: <CareerForm/>,
       },
       {
         path: "/faq",

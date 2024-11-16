@@ -1,10 +1,11 @@
 import Nav from "../components/Navber/Nav";
+import OfferedServices from "./OfferedServices";
 
 const ServicesPage = () => {
   return (
     <div>
       <Nav isVisible={true} />
-        <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-28">
+        <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg mt-28">
       <h1 className="text-3xl font-bold text-gray-800 mb-4">
         Stylorium Sourcing Ltd
       </h1>
@@ -31,6 +32,7 @@ const ServicesPage = () => {
       <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Payment Modes</h2>
       <p className="text-gray-700 text-[17px]">We accept sales contract TT, L/C, DAP.</p>
     </div>
+    <OfferedServices/>
     </div>
   );
 };

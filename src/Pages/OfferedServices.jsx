@@ -4,8 +4,8 @@ const OfferedServices = () => {
   return (
  <div>
      <Nav isVisible={true} />
-       <section className="px-6 py-8 mt-28 bg-gray-100">
-      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 md:p-10">
+       <section className="">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg p-6 md:p-10">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Offered Services</h2>
         
         <ul className="space-y-4 mb-6 text-gray-700 text-[17px]">
