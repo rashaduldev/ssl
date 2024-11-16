@@ -106,7 +106,7 @@ const Faq = () => {
         <div className="text-center pb-6">
           <h2 className="text-3xl font-semibold relative inline-block pb-2">
             FAQ
-            <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-16 h-1 bg-pink-500"></span>
+            <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-16 h-1 bg-[#4C578D]"></span>
           </h2>
         </div>
         <div className="bg-white shadow-lg rounded-lg p-6 max-w-3xl mx-auto">
@@ -116,14 +116,14 @@ const Faq = () => {
               className="border-b border-gray-200"
             >
               <button
-                className="w-full text-left flex items-center justify-between py-4 px-6 text-gray-700 hover:bg-pink-50 focus:outline-none focus:ring focus:ring-pink-300"
+                className="w-full text-left flex items-center justify-between py-4 px-6 text-gray-700 hover:bg-[#4c578d38] focus:outline-none focus:ring focus:ring-[#4C578D]"
                 onClick={() => toggleItem(faq.id)}
               >
                 <span className="flex items-center">
-                  <span className="bg-pink-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-4">{faq.id}</span>
+                  <span className="bg-[#4C578D] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-4">{faq.id}</span>
                   {faq.question}
                 </span>
-                <span>{openItem === faq.id ? '-' : '+'}</span>
+                <span className='text-lg'>{openItem === faq.id ? '-' : '+'}</span>
               </button>
               {openItem === faq.id && (
                 <div className="px-6 py-4 text-gray-600 text-sm">

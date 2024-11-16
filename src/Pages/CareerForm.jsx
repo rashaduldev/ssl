@@ -67,7 +67,7 @@ const CareerForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-500 text-white font-semibold rounded-md py-2 text-sm hover:bg-green-600"
+            className="w-full bg-[#4C578D] text-white font-semibold rounded-md py-2 text-sm hover:bg-green-600"
           >
             SEND
           </button>
