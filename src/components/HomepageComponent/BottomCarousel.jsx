@@ -57,7 +57,7 @@ const BottomCarousel = () => {
   };
 
   return (
-    <div className="relative h-[650px] my-8">
+    <div className="relative h-[610px] my-8">
       <video
         className="absolute inset-0 w-full h-full object-cover"
         src={vedio1}
@@ -78,6 +78,7 @@ const BottomCarousel = () => {
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
        >
+        <h1 className='text-5xl text-blue-600 bg-[#bdbdbdf5] p-5 max-w-[12%] container mx-auto text-center mb-10 rounded-lg'>Value</h1>
           <div
             className="flex transition-transform duration-300 gap-5 cursor-pointer"
             style={{ transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)` }}
@@ -87,8 +88,8 @@ const BottomCarousel = () => {
                 key={card.id}
                 className="w-1/4 p-2 flex-shrink-0"
               >
-                <div className="w-full h-96 rounded-md border backdrop-blur-lg shadow-lg p-0 flex justify-center items-center">
-                  <img src={card.imgSrc} alt={card.label} className="w-72 h-72 rounded-md border" />
+                <div className="w-full h-[350px] rounded-md border backdrop-blur-lg shadow-lg p-0 flex justify-center items-center transform transition-transform duration-300 delay-2000 hover:scale-105 hover:delay-0">
+                  <img src={card.imgSrc} alt={card.label} className="w-[300px] h-60 rounded-md border" />
                 </div>
               </div>
             ))}

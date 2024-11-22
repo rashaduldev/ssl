@@ -24,6 +24,7 @@ import CompanyGoals from './Pages/CompanyGoals';
 import CompliancePage from './Pages/Compliance';
 import QualityPage from './Pages/QualityPage';
 import CareerForm from './Pages/CareerForm';
+import StrengthSection from './Pages/StrengthSection';
 
 
 const router = createBrowserRouter([
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: "/our-company/mission",
         element: <MissionInfographic/>,
+      },
+      {
+        path: "/our-company/strength",
+        element: <StrengthSection/>,
       },
       {
         path: "/our-company/md",
