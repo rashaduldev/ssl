@@ -1,72 +1,6 @@
-// import { useState } from "react";
-// import Nav from "../components/Navber/Nav";
-// import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
-
-// const Faq = () => {
-//   const faqData = [
-//     { question: "Why shouldn't we trust atoms?", answer: "They make up everything" },
-//     { question: "What do you call someone with no body and no nose?", answer: "Nobody knows." },
-//     { question: "What's the object-oriented way to become wealthy?", answer: "Inheritance." },
-//     { question: "How many tickles does it take to tickle an octopus?", answer: "Ten-tickles!" },
-//     { question: "What is: 1 + 1?", answer: "Depends on who you are asking." },
-//   ];
-
-//   const [activeIndex, setActiveIndex] = useState(null);
-
-//   const toggleFAQ = (index) => {
-//     setActiveIndex(activeIndex === index ? null : index);
-//   };
-
-//   return (
-//     <div>
-//       <Nav isVisible={true} />
-//       <div className="mt-[111px] container mx-auto">
-//         <div
-//           className="h-40 relative"
-//           style={{
-//             backgroundImage: `url("https://i.ibb.co/4jK4Xx1/download.jpg")`,
-//             backgroundSize: "cover",
-//             backgroundPosition: "center",
-//           }}
-//         >
-//           <div className="container mx-auto">
-//             <h1 className="absolute top-[40%] text-4xl text-white uppercase mx-20">Faq page</h1>
-//           </div>
-//         </div>
-//         <div className="faq-container px-4 py-8">
-//           <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
-//           {faqData.map((faq, index) => (
-//             <div
-//               key={index}
-//               className={`faq border p-4 mb-4 rounded-lg ${
-//                 activeIndex === index ? "bg-gray-100" : "bg-white"
-//               }`}
-//             >
-//               <div className="flex justify-between items-center">
-//                 <h3 className="font-semibold text-lg">{faq.question}</h3>
-//                 <button onClick={() => toggleFAQ(index)}>
-//                   {activeIndex === index ? (
-//                     <MdKeyboardArrowUp size={24} />
-//                   ) : (
-//                     <MdKeyboardArrowDown size={24} />
-//                   )}
-//                 </button>
-//               </div>
-//               {activeIndex === index && (
-//                 <p className="faq-text mt-2 text-gray-600">{faq.answer}</p>
-//               )}
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Faq;
-
 import { useState } from 'react';
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from '../components/SecondNavImg';
 
 const Faq = () => {
   const [openItem, setOpenItem] = useState(null);
@@ -89,18 +23,7 @@ const Faq = () => {
    <div>
      <Nav isVisible={true} />
        {/* <div className="mt-[111px] container mx-auto"> */}
-         <div
-           className="h-40 relative mt-[111px]"
-           style={{
-             backgroundImage: `url("https://i.ibb.co/4jK4Xx1/download.jpg")`,
-             backgroundSize: "cover",
-             backgroundPosition: "center",
-           }}
-         >
-           <div className="container mx-auto">
-             <h1 className="absolute top-[40%] text-4xl text-white uppercase mx-20">Faq page</h1>
-           </div>
-           </div>
+       <SecondNavImg text="Faq Page" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
      <section className="bg-gray-50 min-h-screen py-10">
       <div className="container mx-auto px-6">
         <div className="text-center pb-6">

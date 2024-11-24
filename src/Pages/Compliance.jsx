@@ -1,20 +1,46 @@
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from "../components/SecondNavImg";
 
 const CompliancePage = () => {
   return (
     <div>
       <Nav isVisible={true} />
-      <div className="mt-28">
-        <h1 className="text-5xl font-bold uppercase container mx-auto text-[#4e589a] my-1 pt-6">Compliance</h1>
+      <SecondNavImg text="COMPLIANCE" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+      <div className="">
         <div className="bg-green-300">
           <p className="container mx-auto py-10 text-6xl tracking-widers gruppo-regular">
-            Stylorium Sourcing Ltd uses the Plan, Do, Act, and Check management method for compliance, which allows for
-            efficiency and productivity.
+          Stylorium Sourcing Ltd uses the Plan . . .
           </p>
         </div>
         <div className="container mx-auto my-5">
           <img className="mx-auto" src="https://i.postimg.cc/L84yy2rQ/Complience.png" alt="Compliance Flow" />
         </div>
+    {/* Compliance Goals */}
+<div className="text-center p-6 w-full rounded-lg">
+  <h3 className="text-xl font-bold mb-4">COMPLIANCE GOALS</h3>
+  <ul className="text-gray-600 space-y-2 text-lg mx-auto">
+    <li className="flex flex-row justify-center items-center">
+      <span className="text-green-500 font-bold mb-1">✔</span>
+      <span className="text-center">
+        Accelerating the business by creating a successful compliance program.
+      </span>
+    </li>
+    <li className="flex flex-row justify-center items-center">
+      <span className="text-green-500 font-bold mb-1">✔</span>
+      <span className="text-center">
+        Minimizing business risk through safe, secure, and environmental-friendly workplaces where the goods
+        are produced.
+      </span>
+    </li>
+    <li className="flex flex-row justify-center items-center">
+      <span className="text-green-500 font-bold mb-1">✔</span>
+      <span className="text-center">
+        Increasing business reputation by fulfilling the customers&apos;s requirements.
+      </span>
+    </li>
+  </ul>
+</div>
+
 
         {/* Section Container */}
         <div className="container mx-auto max-w-6xl mt-10">
@@ -144,27 +170,6 @@ const CompliancePage = () => {
             </div>
           </div>
 
-          {/* Compliance Goals */}
-          <div className="text-center p-6 w-full rounded-lg">
-            <h3 className="text-xl font-bold mb-4">COMPLIANCE GOALS</h3>
-            <ul className="text-gray-600 space-y-2 text-left mx-auto text-lg">
-              <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2">✔</span>
-                <span>Accelerating the business by creating a successful compliance program.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2">✔</span>
-                <span>
-                  Minimizing business risk through safe, secure, and environmental-friendly workplaces where the goods
-                  are produced.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2">✔</span>
-                <span>Increasing business reputation by fulfilling the customers&apos;s requirements.</span>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

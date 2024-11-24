@@ -15,7 +15,9 @@ import { TiSocialLastFmCircular } from "react-icons/ti";
 const Footer = () => {
   return (
     <footer className="bg-[#1F2937] text-white relative mt-10">
-      <button className="w-16 h-16 bg-white text-[#1F2937] rounded-full border-2 border-black absolute left-[45%] bottom-[95%] md:left-[50%] md:bottom-[92%]">
+      <button className="w-16 h-16 bg-white text-[#1F2937] rounded-full border-2 border-black absolute left-[45%] bottom-[95%] md:left-[50%] md:bottom-[92%]"
+       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
         <FontAwesomeIcon icon={faAnglesUp} size="2xl" />
       </button>
       <div className="container mx-auto footer p-10">
@@ -53,7 +55,7 @@ const Footer = () => {
         {/* mIddle */}
         <nav className="text-lg">
           {/* <h6 className="footer-title"></h6> */}
-          <a className="link link-hover ml-2 md:mt-16">India Office</a>
+          <a className="link link-hover ml-2 text-lg font-bold md:mt-16">India Office</a>
           <div className="flex gap-2 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
             <span className="">
@@ -61,7 +63,7 @@ const Footer = () => {
               Kochi, Kerala, India
             </span>
           </div>
-          <a className="link link-hover">Pakistan Office</a>
+          <a className="link link-hover text-lg font-bold mt-5">Pakistan Office</a>
           <div className="flex gap-2 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
             <span className="">

@@ -72,7 +72,7 @@ const Timeline = () => (
       >
         SSL
       </div> */}
-      <div className="absolute md:-left-[25%] md:top-[47%] top-0 left-[15%]">
+      <div className="absolute md:-left-[25%] md:top-[41%] top-0 left-[15%]">
       <div className="flex items-center space-x-4">
       {/* SSL Circle with Gradient Border */}
       <div

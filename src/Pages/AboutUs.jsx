@@ -1,4 +1,5 @@
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from "../components/SecondNavImg";
 
 const AboutUs = () => {
   return (
@@ -7,14 +8,9 @@ const AboutUs = () => {
       <Nav isVisible={true} />
 
       {/* Main content with padding to avoid overlapping with the fixed Nav */}
-      <div className="mt-20 md:py-12">
+      <div className="">
         {/* Header */}
-        <div className="bg-slate-100">
-            <div className="text-left mb-8  p-10 container mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
-            <p className="text-gray-600 mt-2">Home / About Us</p>
-            </div>
-        </div>
+        <SecondNavImg text="About Us" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
 
         {/* Image and About Section */}
         <div className="md:flex space-x-8 container mx-auto">
@@ -25,7 +21,7 @@ const AboutUs = () => {
               className="rounded-md w-full h-[80%]"
             />
           </div>
-          <div className="mt-4 md:mt-0 flex-1">
+          <div className="mt-4 md:mt-10 flex-1">
             <h3 className="text-4xl font-semibold mt-5">About Our Shop</h3>
             <p className="mt-4 text-gray-700 text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
@@ -43,9 +39,6 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
               accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button className="mt-4 px-8 py-4 bg-black text-white rounded-md hover:bg-gray-800">
-              Download Company Profile
-            </button>
           </div>
         </div>
         <div className="flex flex-col md:flex-row md:justify-around justify-center container mx-auto md:my-2 my-10">
