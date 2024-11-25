@@ -1,15 +1,7 @@
 import { IoIosArrowDown } from "react-icons/io";
 import { NavLink } from "react-router-dom";
-// import { useState } from "react";
 
 const CommonNav = () => {
-  // const [isWomenOpen, setIsWomenOpen] = useState(false);
-  // const [isMenOpen, setIsMenOpen] = useState(false);
-  // const [isKidsOpen, setIsKidsOpen] = useState(false);
-
-  // // Hover handlers for each dropdown
-  // const handleMouseEnter = (setState) => () => setState(true);
-  // const handleMouseLeave = (setState) => () => setState(false);
 
   return (
     <>
@@ -134,7 +126,6 @@ const CommonNav = () => {
       <li className="relative group w-full">
         <button className="text-black hover:text-blue-600 flex items-center gap-1 font-bold">
           WOMEN
-          <IoIosArrowDown className="text-lg" />
         </button>
         <ul className="absolute left-0 top-full bg-white rounded-lg space-y-2 w-[110px] hidden group-hover:block">
           <li className="hover:bg-gray-100 hover:text-blue-600 py-2 border-b border-black">
@@ -154,9 +145,9 @@ const CommonNav = () => {
 
       {/* Men Category with Subitems */}
       <li className="relative group w-full">
-        <button className="text-black hover:text-blue-600 flex items-center gap-1 font-bold">
+        <button className="text-black hover:text-blue-600 flex items-center gap-2 font-bold">
           MEN
-          <IoIosArrowDown className="text-lg" />
+          <span className="text-white">.</span>
         </button>
         <ul className="absolute left-0 top-full bg-white rounded-lg space-y-2 w-[110px] hidden group-hover:block">
           <li className="hover:bg-gray-100 hover:text-blue-600 py-2 border-b border-black">
@@ -178,7 +169,6 @@ const CommonNav = () => {
       <li className="relative group w-full">
         <button className="text-black hover:text-blue-600 flex items-center gap-1 font-bold">
           KIDS
-          <IoIosArrowDown className="text-lg" />
         </button>
         <ul className="absolute left-0 top-full rounded-lg space-y-2 w-[100px] hidden group-hover:block">
           <li className="hover:bg-gray-100 hover:text-blue-600 p-2 border-b border-black">

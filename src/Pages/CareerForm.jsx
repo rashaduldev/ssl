@@ -1,16 +1,17 @@
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from "../components/SecondNavImg";
 
 const CareerForm = () => {
   return (
     <div>
         <Nav isVisible={true} />
-        <div className="flex flex-col items-center min-h-screen bg-white mt-28">
-      <div className=" max-w-5xl">
-        <h1 className="text-4xl font-bold text-black mb-4 pt-6">Career</h1>
-        <p className="text-gray-700 mb-4 text-lg">
+        <SecondNavImg text="Career" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+        <div className="flex flex-col items-center min-h-screen bg-white">
+      <div className=" max-w-5xl mt-20 text-3xl">
+        <p className="text-gray-700 mb-4 text-3xl">
           The <span className="font-semibold text-black">Stylorium Sourcing Ltd.</span> has been in the buying house business since 2020. SSL has been recognized internationally as one of the safest and best companies to work for.
         </p>
-        <ul className="text-gray-700 text-left text-lg mb-6">
+        <ul className="text-gray-700 text-left  text-2xl mb-6">
           <li>• We believe in a work-life balance</li>
           <li>• Excellent growth and advancement opportunities</li>
           <li>• Home Most Night</li>
@@ -67,7 +68,7 @@ const CareerForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#4C578D] text-white font-semibold rounded-md py-2 text-sm hover:bg-green-600"
+            className="w-full bg-[#4C578D] text-white font-semibold rounded-md py-4 text-sm hover:bg-green-600"
           >
             SEND
           </button>

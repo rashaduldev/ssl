@@ -3,26 +3,16 @@ import ContactForm from "../components/HomepageComponent/ContactForm";
 import Nav from "../components/Navber/Nav";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
+import SecondNavImg from "../components/SecondNavImg";
 
 
 const ContactPage = () => {
   return (
    <div>
     <Nav isVisible={true}/>
-         <div className="w-full mt-28">
+         <div className="w-full">
       {/* Header Section */}
-      <div
-           className="h-40 relative mt-[111px]"
-           style={{
-             backgroundImage: `url("https://i.ibb.co.com/zSVCqkm/images-1.jpg")`,
-             backgroundSize: "cover",
-             backgroundPosition: "center",
-           }}
-         >
-           <div className="container mx-auto">
-             <h1 className="absolute top-[40%]  text-white "><span className="text-4xl uppercase">Contact page</span> <br /> <span>home/contact</span></h1>
-           </div>
-           </div>
+      <SecondNavImg text="Contact Page" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
 
       {/* Contact Info Section */}
       <section className="text-center py-12 mt-5">

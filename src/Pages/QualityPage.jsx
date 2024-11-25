@@ -1,18 +1,20 @@
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from "../components/SecondNavImg";
 
 const QualityPage = () => {
   return (
    <div>
     <Nav isVisible={true} />
-         <div className="container mx-auto px-4 py-10 mt-28">
+    <SecondNavImg text="Quality" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+         <div className="container mx-auto px-4 py-10">
       {/* Title Section */}
-      <h1 className="text-5xl font-bold mb-6 text-gray-900">Quality</h1>
+     
 
       {/* Description Section */}
-      <p className="text-lg text-gray-700 leading-relaxed mb-6">
+      <p className="text-2xl text-gray-700 leading-relaxed mb-6">
         At <span className="text-blue-500 font-bold">Stylorium Sourcing Ltd</span>, quality is the core! From the first sample, we take care of the quality at every step. Our highly qualified quality and control/assurance team is always alert to deal with any situation. We identify the key points of each product to anticipate possible difficulties in production.
       </p>
-      <p className="text-lg text-gray-700 leading-relaxed mb-6">
+      <p className="text-2xl text-gray-700 leading-relaxed mb-6">
         Our Quality Department is totally independent from the Merchandising and Production departments, and their only goal is to achieve the <span className="font-bold">AQL quality requirement</span>. To ensure the quality of the products, we take the following precautions:
       </p>
 
@@ -21,13 +23,13 @@ const QualityPage = () => {
         <div className="flex-1">
         <ul className="list-disc list-inside space-y-4 text-lg text-gray-700">
         <li>
-          <span className="font-bold">Measuring garment dimensions.</span>
+          <span className="font-bold text-2xl">Measuring garment dimensions.</span>
           <ul className="list-disc list-inside ml-6 space-y-2">
             <li>Specifying tolerances for garment dimensions.</li>
           </ul>
         </li>
         <li>
-          <span className="font-bold">Physical tests of buttons, zippers, and other accessories.</span>
+          <span className="font-bold text-2xl">Physical tests of buttons, zippers, and other accessories.</span>
           <ul className="list-disc list-inside ml-6 space-y-2">
             <li>Pull test.</li>
             <li>Fatigue test.</li>
@@ -35,7 +37,7 @@ const QualityPage = () => {
           </ul>
         </li>
         <li>
-          <span className="font-bold">Fabric density & composition test by 4.0 system.</span>
+          <span className="font-bold text-2xl">Fabric density & composition test by 4.0 system.</span>
           <ul className="list-disc list-inside ml-6 space-y-2">
             <li>Fabric GSM check.</li>
             <li>Lab testing.</li>
@@ -45,7 +47,7 @@ const QualityPage = () => {
           </ul>
         </li>
         <li>
-          <span className="font-bold">Color and shade matching.</span>
+          <span className="font-bold text-2xl">Color and shade matching.</span>
         </li>
       </ul>
 
@@ -60,9 +62,9 @@ const QualityPage = () => {
             Conduct the inline and FRI (AQL 1.5-2.5) as per buyer manual as well.
           </li>
         </ul>
-        <p className="text-lg text-gray-700 leading-relaxed mt-6">
+        <p className="text-xl text-gray-700 leading-relaxed mt-6">
           Stylorium offers a global solution of quality, adapted to the buyer&apos;s needs. We also collaborate with the major 3rd party inspection companies (
-          <span className="font-bold">SGS, Intertek, Bureau Veritas</span>) as per buyer&apos;s requirement.
+          <span className="font-bold text-2xl">SGS, Intertek, Bureau Veritas</span>) as per buyer&apos;s requirement.
         </p>
       </div>
         </div>
@@ -74,7 +76,7 @@ const QualityPage = () => {
       {/* Innovation Section */}
       <div className="md:-mt-16">
         <h2 className="text-3xl font-bold mb-4 text-gray-900">Innovation</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">
+        <p className="text-2xl text-gray-700 leading-relaxed">
           We are constantly looking forward to new fabrics, accessories, washes, print, and embroidery techniques. In this way, we use our shore-to-shore sourcing network to offer the greatest variety to our customers. We are also constantly trying to improve the production processes in our local and foreign fabric sourcing team.
         </p>
       </div>
