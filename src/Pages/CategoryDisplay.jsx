@@ -68,11 +68,16 @@ const CategoryDisplay = () => {
         <h1 className="text-5xl font-bold pt-[10px] container mx-auto">
           {subcategory ? `${category} - ${subcategory}` : `${category}`}
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 container mx-auto gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 my-10 container mx-auto gap-10">
           {images.map((image, index) => (
-            <div key={index} className="card rounded-lg border w-96 h-96">
-              <img src={image} alt={`${category} ${index + 1}`} className="w-full h-full" />
+            <div key={index} className="card bg-base-100  border">
+            <figure>
+              <img src={image} alt={`${category} ${index + 1}`} className="w-full h-[450px]" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title font-bold">Name of products</h2>
             </div>
+          </div>   
           ))}
         </div>
       </div>

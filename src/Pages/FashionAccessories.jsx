@@ -19,23 +19,32 @@ const FashionAccessories = () => {
         </div>
         <h3 className="text-3xl font-bold container mx-auto mt-10">Fashion Accessories</h3>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 container mx-auto gap-10">
-          <div>
-          <img className="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+        <div className="grid grid-cols-2 md:grid-cols-3 my-10 container mx-auto gap-10">
+ 
+          <div className="card bg-base-100 border">
+          <figure>
+          <img className="w-full h-[450px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Name of the product</h2>
           </div>
-          <div>
-          <img className="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+        </div>
+        <div className="card bg-base-100 border">
+          <figure>
+          <img className="w-full h-[450px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Name of the product</h2>
           </div>
-          <div>
-          <img className="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+        </div>
+        <div className="card bg-base-100 border">
+          <figure>
+          <img className="w-full h-[450px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Name of the product</h2>
           </div>
-          <div>
-          <img className="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
-          </div>
-          <div>
-          <img className="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTuE_i1ey8gM8-o7EdheJUgWWxdF09egVtQ&s" alt="" />
-          </div>
-          
+        </div>
         </div>
              </div>
         </div>

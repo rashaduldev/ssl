@@ -16,11 +16,13 @@
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Nav from "../components/Navber/Nav";
+import SecondNavImg from "../components/SecondNavImg";
 
 const CompanyGoals = () => {
   return (
    <div>
      <Nav isVisible={true} />
+     <SecondNavImg text="Goal" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
      <div className="min-h-screen pt-10 flex flex-col items-center mt-28">
       {/* Header Section */}
       <div className="text-center mb-10">
