@@ -10,13 +10,18 @@ const Faq = () => {
   };
 
   const faqs = [
-    { id: 1, question: 'What is Lorem Ipsum?', answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
-    { id: 2, question: 'Where does it come from?', answer: 'Contrary to popular belief, Lorem Ipsum is not simply random text.' },
-    { id: 3, question: 'Why do we use it?', answer: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { id: 4, question: 'Where can I get some?', answer: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.' },
-    { id: 5, question: 'What is Lorem Ipsum?', answer: 'It has survived not only five centuries, but also the leap into electronic typesetting.' },
-    { id: 6, question: 'Where does it come from?', answer: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.' },
-    { id: 7, question: 'Why do we use it?', answer: 'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.' },
+    { id: 1, question: 'What kind of business organization is SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bag & Backpack, Toy etc' },
+    { id: 2, question: 'Our detailed product list of SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bag & Backpack, Toy etc.' },
+    { id: 3, question: 'How can I contact SSL?', answer: ' info@stylorium.net/yousuf.sarker@stylorium.net Mobile: +88 01730595698.' },
+    { id: 4, question: 'What type of client can approach SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bag & Backpack, Toy etc' },
+    { id: 5, question: 'What is the shipment lead time after the order placement?', answer: '30-120 days' },
+    { id: 6, question: 'What is the payment term?', answer: 'LC, TT, DP, DDP, DAP. CASH.' },
+    { id: 7, question: 'What the minimum order quantity (MOQ) per style/color?', answer: '500 pices per color' },
+    { id: 8, question: 'Why would you consider SSL as your business partner?', answer: 'For comparative price with on time delivery.' },
+    { id: 9, question: 'How do I apply for a job at SSL?', answer: 'by web side as well as Email.' },
+    { id: 10, question: 'How and what do I negotiable?', answer: ' By email or Whats app as well as correct payment mode.' },
+    { id: 11, question: 'What time will the products be dispatched?', answer: 'within the 60-120 days.' },
+    { id: 12, question: 'Is there any advice that is relevant to all of your buyer?', answer: 'If you are doing business with us your thought will change.' },
   ];
 
   return (
