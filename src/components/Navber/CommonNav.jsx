@@ -82,14 +82,14 @@ const CommonNav = () => {
               ABOUT US
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2">
+          <li className="border-b border-gray-800 w-full p-2 text-xl">
             <NavLink
               to="/our-company/md"
               className={({ isActive }) =>
                 isActive ? "text-blue-600 underline" : "text-gray-800 hover:text-blue-600"
               }
             >
-              OUR MD
+              Managing Director
             </NavLink>
           </li>
         </ul>

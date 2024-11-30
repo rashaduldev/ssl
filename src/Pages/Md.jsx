@@ -21,7 +21,7 @@ const Md = () => {
           <div className="flex flex-row ">
           <div className="w-[80%] pr-10">
                 {/* Header */}
-                <h2 className="text-lg md:text-4xl font-bold mb-4">Message from the Office of the President <br /> & Managing Director</h2>
+                <h2 className="text-lg md:text-4xl font-bold mb-4">Message from the Managing Director</h2>
                 
                 {/* Description */}
                 <p className="text-gray-700 mb-6 md:text-2xl tracking-normal leading-10">

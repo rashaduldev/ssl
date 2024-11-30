@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { FaDribbbleSquare, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillTwitterCircle, AiOutlineSisternode } from "react-icons/ai";
 import { TiSocialLastFmCircular } from "react-icons/ti";
 
 const Footer = () => {
@@ -24,11 +24,11 @@ const Footer = () => {
         <nav className="">
         <div className="text-lg mb-5">
           <img className="w-16 h-14 ml-10"   src="https://i.ibb.co.com/n8mynVc/logo.jpg" alt="" />
-        <p className='italic pt-1 font-bold text-lg'>100% ExportOriented</p>
+        <p className='italic pt-1 font-bold text-lg'>100% ExportOriented Company</p>
         </div>
           <h6 className="font-bold text-white text-2xl">Stylorium Sourcing Ltd.</h6>
           <a className="link link-hover text-lg">Corporate Headquarters</a>
-          <div className="w-4/6 text-lg">
+          <div className="w-4/6 text-lg flex items-start">
             <FontAwesomeIcon icon={faHouseChimney} />
             <span className="ml-2">
               AM Tower (Level-6), Plot# 25, Sonargaon Janapath Road Sector# 12,
@@ -67,8 +67,14 @@ const Footer = () => {
           <div className="flex gap-2 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
             <span className="">
-              Flat. N5 Crest View Jewel Richmond, Rajagiri Valley Kakkanad,
-              Kochi, Kerala, India
+            Corporate Headquarters, Pakistan Office, Sister Concern
+            </span>
+          </div>
+          <a className="link link-hover text-lg font-bold mt-5">Sisters of concern</a>
+          <div className="flex gap-2 w-4/6">
+            <AiOutlineSisternode className="text-4xl" />
+            <span className="">
+            SIMO TEX
             </span>
           </div>
         </nav>

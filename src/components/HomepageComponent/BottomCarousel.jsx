@@ -67,7 +67,7 @@ const BottomCarousel = () => {
       />
       <div className="absolute inset-0 bg-black opacity-30"/>
       <div className="flex justify-center items-center h-full relative z-10">
-        <button onClick={prevSlide} className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white text-5xl z-10">
+        <button onClick={prevSlide} className="absolute left-2 top-[60%] transform -translate-y-1/2 text-white text-5xl z-10">
           &lt;
         </button>
         <div
@@ -88,14 +88,16 @@ const BottomCarousel = () => {
                 key={card.id}
                 className="w-1/4 p-2 flex-shrink-0"
               >
-                <div className="w-full h-[350px] rounded-md border backdrop-blur-lg shadow-lg p-0 flex justify-center items-center transform transition-transform duration-300 delay-2000 hover:scale-105 hover:delay-0">
-                  <img src={card.imgSrc} alt={card.label} className="w-[300px] h-60 rounded-md border" />
+                   {/* border backdrop-blur-lg shadow-lg p-0  */}
+                <div className="w-full h-[350px] rounded-md 
+                flex justify-center items-center transform transition-transform duration-300 delay-2000 hover:scale-105 hover:delay-0">
+                  <img src={card.imgSrc} alt={card.label} className="w-[250px] h-60 rounded-md border" />
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <button onClick={nextSlide} className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white text-5xl z-10">
+        <button onClick={nextSlide} className="absolute right-2 top-[60%] transform -translate-y-1/2 text-white text-5xl z-10">
           &gt;
         </button>
       </div>

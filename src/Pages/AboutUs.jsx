@@ -1,5 +1,6 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import TestimonialSlider from "./AboutUsTeammember";
 
 const AboutUs = () => {
   return (
@@ -13,16 +14,16 @@ const AboutUs = () => {
         <SecondNavImg text="About Us" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
 
         {/* Image and About Section */}
-        <div className="md:flex space-x-8 container mx-auto">
+        <div className="md:flex space-x-8 container mx-auto mt-10">
           <div className="flex-1">
             <img
               src="https://i.ibb.co.com/fCBJzsY/aboutus.png" // Replace with your image URL
-              alt="About our shop"
+              alt=" About Our Company"
               className="rounded-md w-full h-[80%]"
             />
           </div>
           <div className="mt-4 md:mt-10 flex-1">
-            <h3 className="text-4xl font-semibold mt-5">About Our Shop</h3>
+            <h3 className="text-4xl font-semibold mt-5"> About Our Company</h3>
             <p className="mt-4 text-gray-700 text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
               accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -41,18 +42,10 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-around justify-center container mx-auto md:my-2 my-10">
-            <img className="w-32 h-32 rounded" src="https://i.ibb.co.com/ySgsp8r/aboutus2.png" alt="image1" />
-            <img className="w-32 h-32 rounded" src="https://i.ibb.co.com/ySgsp8r/aboutus2.png" alt="image2" />
-            <img className="w-32 h-32 rounded" src="https://i.ibb.co.com/ySgsp8r/aboutus2.png" alt="image3" />
-            <img className="w-32 h-32 rounded" src="https://i.ibb.co.com/ySgsp8r/aboutus2.png" alt="image4" />
-        </div>
-
-        {/* Team Members Section */}
        {/* Team Members Section */}
-        <div className="mt-12 container mx-auto">
+        <div className="container mx-auto">
           <h4 className="text-4xl font-bold text-center mt-24 text-gray-600 mb-16 uppercase">Team Members</h4>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { name: 'Jonathon Andrew', role: 'Founder', image: 'https://i.ibb.co.com/fFK7Dgg/images.jpg' },
               { name: 'Adipisci Volit', role: 'Developer', image: 'https://i.ibb.co.com/W6cdQh7/avatar-659652-640.webp' },
@@ -69,7 +62,12 @@ const AboutUs = () => {
                 <p className="text-sm text-gray-500">{member.role}</p>
               </div>
             ))}
-          </div>
+          </div> */}
+
+          {/*  */}
+      <div className="my-20">
+      <TestimonialSlider/>
+      </div>
         </div>
 
       </div>
