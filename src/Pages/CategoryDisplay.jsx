@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Nav from "../components/Navber/Nav";
+import videoSrc from '../assets/video/Valus.mp4';
 
 const CategoryDisplay = () => {
   const { category, subcategory } = useParams(); // Retrieve category and subcategory from URL
@@ -28,13 +29,13 @@ const CategoryDisplay = () => {
             if (selectedSubcategory) {
               setImages(selectedSubcategory.images);
             } else {
-              setImages(null); // No subcategory found
+              setImages(null); 
             }
           } else {
-            setImages(null); // No images or subcategories found
+            setImages(null); 
           }
         } else {
-          setImages(null); // No category found
+          setImages(null); 
         }
       })
       .catch(error => console.error("Error fetching data:", error));
@@ -52,19 +53,21 @@ const CategoryDisplay = () => {
   return (
     <div>
       <Nav isVisible={true} />
-      <div className="mt-28 pb-24 bg-white">
-        <div className="container mx-auto">
-          <iframe
-            width="1560"
-            height="315"
-            src="https://www.youtube.com/embed/U7jyIVjXldM?autoplay=1&mute=1&si=Vq-fG0spCMccGu6J"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
+      <div className="mt-36 pb-24 bg-white">
+      <div className="container mx-auto">
+      <video
+      className="w-full h-[400px] object-cover"
+        // controls
+        autoPlay
+        muted
+        loop
+        preload="auto"
+        poster="/assets/images/placeholder.jpg" // Optional
+      >
+        <source src={videoSrc} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
         <h1 className="text-5xl font-bold pt-[10px] container mx-auto">
           {subcategory ? `${category} - ${subcategory}` : `${category}`}
         </h1>

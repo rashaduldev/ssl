@@ -127,7 +127,7 @@ const CommonNav = () => {
         <button className="text-black hover:text-blue-600 flex items-center gap-1 font-bold">
           WOMEN
         </button>
-        <ul className="absolute left-0 top-full bg-white rounded-lg space-y-2 w-[110px] hidden group-hover:block">
+        <ul className="absolute left-0 top-full bg-white rounded-lg space-y-2 w-[125px] hidden group-hover:block">
           <li className="hover:bg-gray-100 hover:text-blue-600 py-2 border-b border-black">
             <NavLink to={'/gallery/women/tops'}>TOPS</NavLink>
           </li>
@@ -137,7 +137,7 @@ const CommonNav = () => {
           <li className="hover:bg-gray-100 hover:text-blue-600 py-2 border-b border-black">
             <NavLink to={'/gallery/women/nightware'}>NIGHT WEAR</NavLink>
           </li>
-          <li className="hover:bg-gray-100 hover:text-blue-600 border-b border-black">
+          <li className="hover:bg-gray-100 hover:text-blue-600 border-b pt-4 border-black">
             <NavLink to={'/gallery/women/footware'}>FOOT WEAR</NavLink>
           </li>
         </ul>

@@ -69,7 +69,7 @@ const QualityPage = () => {
       </div>
         </div>
         <div className="flex-1 mx-auto">
-         <img className="h-[80%] mx-auto" src="https://ordnur.com/wp-content/uploads/2018/11/Sewing-Quality-Check-Procedure-for-Top-Garments.jpg" alt="" />
+         <img className="h-[80%] mx-auto" src="https://i.ibb.co.com/PWRmSVC/image.png" alt="" />
        </div>
      </div>
 

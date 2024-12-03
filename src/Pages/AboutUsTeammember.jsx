@@ -192,7 +192,7 @@ const TestimonialSlider = () => {
           prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
         );
       }
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [isDragging]);
 

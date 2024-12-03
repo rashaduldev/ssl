@@ -85,9 +85,6 @@ const ServicesPage = () => {
               </p>
             </div>
           </div>
-          <button className="bg-[#4E5896] text-white px-6 py-2 rounded hover:bg-red-700">
-            Contact us
-          </button>
         </div>
 
         {/* Right Video */}

@@ -15,33 +15,31 @@ const CompliancePage = () => {
         <div className="container mx-auto my-5">
           <img className="mx-auto" src="https://i.postimg.cc/L84yy2rQ/Complience.png" alt="Compliance Flow" />
         </div>
-    {/* Compliance Goals */}
-<div className="text-center p-6 w-full rounded-lg">
-  <h3 className="text-xl font-bold mb-4">COMPLIANCE GOALS</h3>
-  <ul className="text-gray-600 space-y-2 text-lg mx-auto">
-    <li className="flex flex-row justify-center items-center">
-      <span className="text-green-500 font-bold mb-1">✔</span>
-      <span className="text-center">
-        Accelerating the business by creating a successful compliance program.
-      </span>
-    </li>
-    <li className="flex flex-row justify-center items-center">
-      <span className="text-green-500 font-bold mb-1">✔</span>
-      <span className="text-center">
-        Minimizing business risk through safe, secure, and environmental-friendly workplaces where the goods
-        are produced.
-      </span>
-    </li>
-    <li className="flex flex-row justify-center items-center">
-      <span className="text-green-500 font-bold mb-1">✔</span>
-      <span className="text-center">
-        Increasing business reputation by fulfilling the customers&apos;s requirements.
-      </span>
-    </li>
-  </ul>
-</div>
-
-
+        {/* Compliance Goals */}
+        <div className="text-center p-6 w-full rounded-lg">
+          <h3 className="text-xl font-bold mb-4">COMPLIANCE GOALS</h3>
+          <ul className="text-gray-600 space-y-2 text-lg mx-auto">
+            <li className="flex flex-row justify-center items-center">
+              <span className="text-green-500 font-bold mb-1">✔</span>
+              <span className="text-center">
+                Accelerating the business by creating a successful compliance program.
+              </span>
+            </li>
+            <li className="flex flex-row justify-center items-center">
+              <span className="text-green-500 font-bold mb-1">✔</span>
+              <span className="text-center">
+                Minimizing business risk through safe, secure, and environmental-friendly workplaces where the goods
+                are produced.
+              </span>
+            </li>
+            <li className="flex flex-row justify-center items-center">
+              <span className="text-green-500 font-bold mb-1">✔</span>
+              <span className="text-center">
+                Increasing business reputation by fulfilling the customers&apos;s requirements.
+              </span>
+            </li>
+          </ul>
+        </div>
         {/* Section Container */}
         <div className="container mx-auto max-w-6xl mt-10">
           {/* PLAN | DO */}
@@ -49,11 +47,10 @@ const CompliancePage = () => {
             {/* PLAN */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.postimg.cc/NFwDRc64/image.png"
+                src="https://i.ibb.co.com/gSykWyN/plan.png"
                 alt="Plan Icon"
-                className="w-44 h-44 mx-auto mb-4"
+                className="w-96 h-96 mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-4">1. PLAN</h3>
               <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
@@ -81,11 +78,10 @@ const CompliancePage = () => {
             {/* DO */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.postimg.cc/BbcggVNG/image.png"
+                src="https://i.ibb.co.com/syvYqDV/do.png"
                 alt="Do Icon"
-                className="w-44 h-44 mx-auto mb-4"
+                className="w-96 h-96 mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-4">2. DO</h3>
               <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
@@ -116,11 +112,10 @@ const CompliancePage = () => {
             {/* ACT */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.postimg.cc/59wnbXJk/image.png"
+                src="https://i.ibb.co.com/s3vB3H7/act.png"
                 alt="Act Icon"
-                className="w-44 h-44 mx-auto mb-4"
+                className="w-96 h-96 mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-4">3. ACT</h3>
               <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
@@ -144,11 +139,10 @@ const CompliancePage = () => {
             {/* CHECK */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.postimg.cc/yNgy5dnj/image.png"
+                src="https://i.ibb.co.com/Z8z7KCF/check.png"
                 alt="Check Icon"
-                className="w-44 h-44 mx-auto mb-4"
+                className="w-96 h-96 mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-4">4. CHECK</h3>
               <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>

@@ -1,18 +1,3 @@
-// import Nav from "../components/Navber/Nav";
-
-// const CompanyGoals = () => {
-//     return (
-//         <div>
-//              <Nav isVisible={true} />
-//            <div className="mt-28 container mx-auto">
-//            <img className="w-full" src="https://powerslides.com/wp-content/uploads/2019/11/Company-Objectives-1.jpg" alt="" />
-//            </div>
-//         </div>
-//     );
-// };
-
-// export default CompanyGoals;
-
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Nav from "../components/Navber/Nav";
@@ -23,29 +8,52 @@ const CompanyGoals = () => {
    <div>
      <Nav isVisible={true} />
      <SecondNavImg text="Goal" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
-     <div className="min-h-screen pt-10 flex flex-col items-center mt-28">
-      {/* Header Section */}
-      <div className="text-center mb-10">
-        <h1 className="text-3xl md:text-5xl font-bold text-[#4C578D] mb-2">
-          COMPANY OBJECTIVES
-        </h1>
-      </div>
+     <div className="bg-blue-500 text-white py-16 px-4 flex flex-col items-center rounded-lg shadow-md container mx-auto mt-20">
+      {/* Title */}
+      <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
+      COMPANY OBJECTIVES
+      </h2>
 
-      {/* Objectives Section */}
-      <div className="bg-white border border-gray-300 rounded-lg p-6 max-w-4xl w-full">
-        <div className="flex items-center justify-center mb-6">
-          <FaQuoteLeft className="text-2xl text-gray-400" />
-          <p className="mx-4 text-center text-gray-700">
-            Company objectives are measurable and effectively describe the
-            actions required to accomplish a task. Objectives define the
-            techniques your organization will use to achieve sales success,
-            customer service standards, and branding opportunities as well as
-            any other measurable aspirations.
-          </p>
-          <FaQuoteRight className="text-2xl text-gray-400" />
+      {/* Description */}
+      <p className="text-sm md:text-lg text-center mb-8 px-5 md:px20 py-3">
+      Company objectives are measurable and effectively describe the actions required to accomplish a task. Objectives define the techniques your organization will use to achieve sales success, customer service standards, and branding opportunities as well as any other measurable aspirations.
+      </p>
+
+      {/* Call to Action Button */}
+      <button className="px-8 py-3 font-semibold border-2 border-white rounded-full hover:bg-white text-white hover:text-blue-500 transition-all">
+        Call To Action
+      </button>
+
+      {/* Background Decorative Circles */}
+      <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+        <div className="absolute bg-blue-400 opacity-20 rounded-full h-40 w-40 top-10 left-10"></div>
+        <div className="absolute bg-blue-400 opacity-20 rounded-full h-24 w-24 bottom-10 right-10"></div>
+        <div className="absolute bg-white opacity-10 h-16 w-16 rounded-full"></div>
+        <div className="absolute h-48 w-48 opacity-10">
+          <svg
+            viewBox="0 0 100 100"
+            className="h-full w-full"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <pattern
+                id="dots"
+                x="0"
+                y="0"
+                width=".1"
+                height=".1"
+                patternUnits="userSpaceOnUse"
+              >
+                <circle cx="1" cy="1" r="1" fill="white" />
+              </pattern>
+            </defs>
+            <rect width="100" height="100" fill="url(#dots)" />
+          </svg>
         </div>
       </div>
-
+    </div>
+     <div className="pt-10 flex flex-col items-center my-10 pb-10">
       {/* Success Section */}
       <div className="relative my-12">
         <div className="flex items-center justify-center">

@@ -66,6 +66,12 @@
   background-position: 0 0;
   animation: back 10s linear 0.5s infinite forwards;
 }
+@media (max-width: 425px) {
+  .header-test h1 {
+    font-size: 40px;
+    line-height: 72px;
+  }
+}
 
 @keyframes back {
   from {

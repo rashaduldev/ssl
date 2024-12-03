@@ -35,20 +35,20 @@ const Footer = () => {
               Uttara, Dhaka - 1230
             </span>
           </div>
-          <div className="flex gap-2 text-lg">
+          <div className="flex gap-2 text-lg items-center">
             <FontAwesomeIcon icon={faEnvelope} />
             <p>
               Email:<a className="link link-hover"> info@stylorium.net</a>{" "}
             </p>
           </div>
-          <div className="flex gap-2 w-4/6 text-lg">
+          <div className="flex gap-2 w-4/6 text-lg items-center">
             <FontAwesomeIcon icon={faPhone} />
             <span className="">Phone: +880 1730595698</span>
           </div>
-          <div className="flex gap-2 text-lg">
+          <div className="flex gap-2 text-lg items-center">
             <FontAwesomeIcon icon={faGlobe} />
             <p>
-              Website:<a className="link link-hover">stylorium.net</a>{" "}
+              Website:<a className="link link-hover"> www.stylorium.net</a>{" "}
             </p>
           </div>
         </nav>
@@ -72,14 +72,14 @@ const Footer = () => {
           </div>
           <a className="link link-hover text-lg font-bold mt-5">Sisters of concern</a>
           <div className="flex gap-2 w-4/6">
-            <AiOutlineSisternode className="text-4xl" />
+            <img className="h-8 w-8 rounded" src="https://i.ibb.co.com/7K8cVGp/sisterconcern.jpg" alt="" />
             <span className="">
             SIMO TEX
             </span>
           </div>
         </nav>
         <nav className="text-lg">
-          <h6 className="footer-title md:mt-16">Quick View</h6>
+          <h6 className="font-bold md:mt-16">Quick View</h6>
 
           <div className="flex gap-2 ">
             <FontAwesomeIcon icon={faCircleCheck} />

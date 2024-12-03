@@ -45,28 +45,8 @@ const AboutUs = () => {
        {/* Team Members Section */}
         <div className="container mx-auto">
           <h4 className="text-4xl font-bold text-center mt-24 text-gray-600 mb-16 uppercase">Team Members</h4>
-          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { name: 'Jonathon Andrew', role: 'Founder', image: 'https://i.ibb.co.com/fFK7Dgg/images.jpg' },
-              { name: 'Adipisci Volit', role: 'Developer', image: 'https://i.ibb.co.com/W6cdQh7/avatar-659652-640.webp' },
-              { name: 'John Fexit', role: 'Shop Manager', image: 'https://i.ibb.co.com/5WVsbkw/download-1.png' },
-              { name: 'Jane Doe', role: 'Shop Manager', image: 'https://i.ibb.co.com/Dt9BVvD/dummy-profile.jpg' }
-            ].map((member, index) => (
-              <div key={index} className="text-center">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-40 h-40 mx-auto rounded-full object-cover"
-                />
-                <p className="mt-4 font-medium">{member.name}</p>
-                <p className="text-sm text-gray-500">{member.role}</p>
-              </div>
-            ))}
-          </div> */}
-
-          {/*  */}
-      <div className="my-20">
-      <TestimonialSlider/>
+        <div className="my-20">
+        <TestimonialSlider/>
       </div>
         </div>
 

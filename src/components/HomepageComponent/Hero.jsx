@@ -53,7 +53,7 @@ const Hero = () => {
          <div className="header-test mt-5">
                 <h1>Stylorium Sourcing Ltd</h1>
             </div>
-            <p className="text-white text-lg w-[80%] mx-auto">Stylorium Sourcing is a 100% export Oriented trader, exporter, importer & manufacturer integrated in high value textile & non <br />  textile product. Company started its journey since 2020 and established its WAY TOWARDS SUSTAINABILITY vision in
+            <p className="text-white md:text-lg text-sm w-[80%] mx-auto">Stylorium Sourcing is a 100% export Oriented trader, exporter, importer & manufacturer integrated in high value textile & non <br />  textile product. Company started its journey since 2020 and established its WAY TOWARDS SUSTAINABILITY vision in
                 2030. Corporate office is located at Dhaka ,Bangladesh.
             </p>
          </div>
@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 right-0 w-60 h-32 p-0">
+      <div className="absolute bottom-0 right-0 md:w-60 md:h-32 w-40 h-20 p-0">
         <img src={images[currentImage]} alt="Partner" className="w-full h-full object-cover" />
       </div>
 
