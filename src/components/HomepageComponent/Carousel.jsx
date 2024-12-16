@@ -83,7 +83,7 @@ const CardCarousel = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="w-1/4 p-4 flex-shrink-0 transform transition-transform duration-200 hover:scale-105 cursor-pointer"
+                className="w-1/2 md:w-1/4 p-4 flex-shrink-0 transform transition-transform duration-200 hover:scale-105 cursor-pointer"
               >
                 <div className="w-full h-56 rounded-md border backdrop-blur-lg shadow-lg p-4 flex justify-center items-center">
                   <img

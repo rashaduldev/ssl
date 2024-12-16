@@ -17,8 +17,8 @@ const BottomNavbar = ({ isHidden }) => {
         {/* Logo */}
         <NavLink to={'/'}>
           <div>
-            <img className="w-16 h-14 ml-10" src="https://i.ibb.co.com/n8mynVc/logo.jpg" alt="Logo" />
-            <p className="text-sm italic pt-1 font-bold">100% Export Oriented</p>
+            <img className="w-10 h-10 md:w-16 md:h-14 ml-10 md:ml-16" src="https://i.ibb.co.com/n8mynVc/logo.jpg" alt="Logo" />
+            <p className="text-[8px] md:text-sm italic pt-1 font-bold">100% Export Oriented Company</p>
           </div>
         </NavLink>
         

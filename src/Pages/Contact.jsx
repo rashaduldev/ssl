@@ -12,7 +12,7 @@ const ContactPage = () => {
     <Nav isVisible={true}/>
          <div className="w-full">
       {/* Header Section */}
-      <SecondNavImg text="Contact Page" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+      <SecondNavImg text="Contact us" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
 
       {/* Contact Info Section */}
       <section className="text-center py-12 mt-5">

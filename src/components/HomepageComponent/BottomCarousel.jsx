@@ -78,7 +78,7 @@ const BottomCarousel = () => {
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
        >
-        <h1 className='text-5xl text-blue-600 bg-[#bdbdbdf5] p-5 max-w-[12%] container mx-auto text-center mb-10 rounded-lg'>Value</h1>
+        <h1 className='text-5xl text-blue-600 bg-[#bdbdbdf5] p-5 w-[36%] md:w-[12%] container mx-auto text-center mb-10 rounded-lg'>Value</h1>
           <div
             className="flex transition-transform duration-300 gap-5 cursor-pointer"
             style={{ transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)` }}
@@ -86,7 +86,7 @@ const BottomCarousel = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="w-1/4 p-2 flex-shrink-0"
+                className="w-1/2 md:w-1/4 p-2 flex-shrink-0"
               >
                    {/* border backdrop-blur-lg shadow-lg p-0  */}
                 <div className="w-full h-[350px] rounded-md 

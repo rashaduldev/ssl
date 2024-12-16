@@ -48,7 +48,7 @@ const Dashboard = () => {
                     </div>
                     {/*  3*/}
                     <div className=" bg-gray-300 flex justify-center items-center">
-                   <h1 className='p-4 text-[18px]'>We do Textile, Footwear, Handicraft, Home textile, Home furniture Household, Gloves, Crockery, Coconut shell, kitchen item, Bag & Backpack, High tech sports, Toy etc.</h1>
+                   <h1 className='p-4 text-[12px] md:text-[18px]'>We do Textile, Footwear, Handicraft, Home textile, Home furniture Household, Gloves, Crockery, Coconut shell, kitchen item, Bag & Backpack, High tech sports, Toy etc.</h1>
                     </div>
                     {/* 4 */}
                     <div className="">
@@ -70,7 +70,7 @@ const Dashboard = () => {
                     </div>
                     {/* 6 */}
                     <div className=" bg-gray-300 flex justify-center items-center">
-                   <h1 className='p-4 text-[18px]'>The phrase sustainable industries is related to the development of industrial processes in a sustainable way. The phrase refers to greening of energy intensive industries such as the textiles, steel, cement, and paper industries.</h1>
+                   <h1 className='p-4 text-[12px] md:text-[18px]'>The phrase sustainable industries is related to the development of industrial processes in a sustainable way. The phrase refers to greening of energy intensive industries such as the textiles, steel, cement, and paper industries.</h1>
                     </div>
               </div>
             </div>

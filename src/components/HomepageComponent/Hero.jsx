@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 right-0 md:w-60 md:h-32 w-40 h-20 p-0">
+      <div className="absolute bottom-1 right-1 md:w-60 md:h-32 w-40 h-20 p-0">
         <img src={images[currentImage]} alt="Partner" className="w-full h-full object-cover" />
       </div>
 

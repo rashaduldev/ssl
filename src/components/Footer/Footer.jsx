@@ -9,13 +9,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { FaDribbbleSquare, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { AiFillTwitterCircle, AiOutlineSisternode } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialLastFmCircular } from "react-icons/ti";
 
 const Footer = () => {
   return (
     <footer className="bg-[#1F2937] text-white relative mt-10">
-      <button className="w-16 h-16 bg-white text-[#1F2937] rounded-full border-2 border-black absolute left-[45%] bottom-[95%] md:left-[50%] md:bottom-[92%]"
+      <button className="w-16 h-16 bg-white text-[#1F2937] rounded-full border-2 border-black absolute left-[45%] bottom-[97%] md:left-[50%] md:bottom-[92%]"
        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <FontAwesomeIcon icon={faAnglesUp} size="2xl" />

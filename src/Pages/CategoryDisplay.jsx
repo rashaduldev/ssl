@@ -53,7 +53,7 @@ const CategoryDisplay = () => {
   return (
     <div>
       <Nav isVisible={true} />
-      <div className="mt-36 pb-24 bg-white">
+      <div className="mt-20 md:mt-36 pb-24 bg-white">
       <div className="container mx-auto">
       <video
       className="w-full h-[400px] object-cover"
@@ -68,10 +68,10 @@ const CategoryDisplay = () => {
         Your browser does not support the video tag.
       </video>
     </div>
-        <h1 className="text-5xl font-bold pt-[10px] container mx-auto">
+        <h1 className="text-3xl pl-5 md:py-8 mt-8 md:text-5xl font-bold pt-[10px] uppercase container mx-auto">
           {subcategory ? `${category} - ${subcategory}` : `${category}`}
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 my-10 container mx-auto gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 container mx-auto gap-10">
           {images.map((image, index) => (
             <div key={index} className="card bg-base-100  border">
             <figure>
