@@ -4,12 +4,12 @@ import TopNavbar from '../components/Navber/TopNavbar';
 import BottomNavbar from '../components/Navber/BottomNavbar';
 import Dashboard from '../components/HomepageComponent/Dashboard';
 import Carousel from '../components/HomepageComponent/Carousel';
-import Timeline from '../components/HomepageComponent/Timeline';
 import VideoBackground from '../components/HomepageComponent/VideoBackground';
 import CardGrid from '../components/HomepageComponent/CardGrid';
 import BottomCarousel from '../components/HomepageComponent/BottomCarousel';
 import WorldMap from '../components/HomepageComponent/WorldMap';
 import ContactForm from '../components/HomepageComponent/ContactForm';
+import OurConcept from '../components/HomepageComponent/OurConcept';
 
 const Homepage = () => {
   const [showTopNavbar, setShowTopNavbar] = useState(false);
@@ -34,7 +34,7 @@ const Homepage = () => {
       <BottomNavbar isHidden={showTopNavbar} />
       <Dashboard/>
       <Carousel/>
-      <Timeline/>
+      <OurConcept/>
       <VideoBackground/>
       <CardGrid/>
       <BottomCarousel/>
