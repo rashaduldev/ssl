@@ -5,14 +5,49 @@ const OurConcept = () => {
   return (
     <div className="bg-white py-10 px-4 md:px-16">
       {/* Header */}
-      <h2 className="text-center text-red-600 text-3xl md:text-4xl font-bold mb-10">
-        Our Concept
-      </h2>
+      <div className="flex flex-col items-center justify-center py-10 bg-white">
+      {/* Title Section */}
+      <div className="relative text-center">
+        <h2 className="text-5xl font-bold text-red-600">Our Concept</h2>
+        <div className="absolute left-0 right-0 top-full flex items-center justify-center mt-4">
+        <div className="h-3 w-3 bg-red-600 rounded-full"/>
+          <div className="h-1 w-56 bg-red-600"/>
+          <div className="h-3 w-3 bg-red-600 rounded-full"/>
+        </div>
+      </div>
 
+      {/* Logo Section */}
+      <div className="mt-10 flex flex-col items-center">
+        {/* Circle with Gradient Border */}
+        <div
+          className="relative w-32 h-32 rounded-full flex items-center justify-center"
+          style={{
+            background: `conic-gradient(
+              #67F79D 0% 22%,
+              transparent 22% 44%,
+              #F98A29 44% 66%,
+              #F0A8D7 66% 88%,
+              #8EF5E3 88% 100%
+            )`,
+          }}
+        >
+          {/* Inner Circle */}
+          <div className="w-28 h-28 bg-white rounded-full flex items-center justify-center">
+            <span className="text-4xl font-bold text-[#009688]">SSL</span>
+          </div>
+        </div>
+        <div className="mt-2 flex flex-col gap-1">
+            <div className="bg-gray-400 rounded-full"><FaRegCircle /></div>
+            <div className="bg-gray-400 rounded-full"><FaRegCircle /></div>
+            <div className="bg-gray-400 rounded-full"><FaRegCircle /></div>
+            <div className="bg-gray-400 rounded-full"><FaRegCircle /></div>
+          </div>
+      </div>
+    </div>
       {/* Timeline Container */}
       <div className="relative flex flex-col items-center md:items-start">
         {/* Vertical Center Line */}
-        <div className="absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-gray-300"></div>
+        <div className="absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-gray-300"/>
 
         {/* Steps */}
         <Step
@@ -103,7 +138,7 @@ const Step = ({ position, number, title, description, iconColor }) => {
 
         {/* Text Box */}
         <div
-          className={`bg-white p-4 rounded-md ml-4 ${position === "left" ? "text-right" : "text-left"}`}
+          className={`mt-24 p-4 bg-white rounded-md ml-4 ${position === "left" ? "text-right" : "text-left"}`}
         >
           <h3 className={`font-bold text-sm md:text-lg ${iconColor}`}>
             {number}. {title}
