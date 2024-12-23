@@ -11,6 +11,7 @@ import { NavLink } from "react-router-dom";
 import { FaDribbbleSquare, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialLastFmCircular } from "react-icons/ti";
+import logo from '../../assets/image/fontImage/headerImage.JPG';
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
       <div className="container mx-auto footer p-10">
         <nav className="">
         <div className="text-lg mb-5">
-          <img className="w-16 h-14 ml-10"   src="https://i.ibb.co.com/n8mynVc/logo.jpg" alt="" />
+          <img className="w-16 h-14 ml-10"   src={logo} alt="" />
         <p className='italic pt-1 font-bold text-lg'>100% ExportOriented Company</p>
         </div>
           <h6 className="font-bold text-white text-2xl">Stylorium Sourcing Ltd.</h6>

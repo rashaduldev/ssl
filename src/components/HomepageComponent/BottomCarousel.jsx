@@ -1,5 +1,18 @@
 import { useRef, useState } from 'react';
 import vedio1 from '../../assets/video/Why_choose_SSL.mp4';
+import value1 from '../../assets/image/fontImage/Valus1.png'
+import value2 from '../../assets/image/fontImage/Valus2.png'
+import value3 from '../../assets/image/fontImage/Valus3.png'
+import value4 from '../../assets/image/fontImage/Valus4.png'
+import value5 from '../../assets/image/fontImage/Valus5.jpg'
+import value6 from '../../assets/image/fontImage/Valus6.jpg'
+import value7 from '../../assets/image/fontImage/Valus7.jpg'
+import value8 from '../../assets/image/fontImage/Valus8.jpg'
+import value9 from '../../assets/image/fontImage/Valus9.jpg'
+import value10 from '../../assets/image/fontImage/Valus10.png'
+import value11 from '../../assets/image/fontImage/Valus11.jpg'
+import value12 from '../../assets/image/fontImage/Valus12.jpg'
+import value13 from '../../assets/image/fontImage/Valus13.jpg'
 
 const BottomCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -8,14 +21,19 @@ const BottomCarousel = () => {
   const [dragOffset, setDragOffset] = useState(0);
 
   const cards = [
-    { id: 1, label: 'Global Organic Textile Standard', imgSrc: 'https://i.ibb.co.com/NSM5Bks/Valus1.png' },
-    { id: 2, label: 'WRAP', imgSrc: 'https://i.ibb.co.com/DwzgTPt/Valus2.png' },
-    { id: 3, label: 'Responsible Forestry Certified', imgSrc: 'https://i.ibb.co.com/xgyYYy5/Valus3.png' },
-    { id: 4, label: 'Global Recycled Standard', imgSrc: 'https://i.ibb.co.com/7WyRq37/Valus4.png' },
-    { id: 5, label: 'Card 5', imgSrc: 'https://i.ibb.co.com/YDc5hYK/Valus5.jpg' },
-    { id: 6, label: 'Card 6', imgSrc: 'https://i.ibb.co.com/NWFb05v/Valus6.jpg' },
-    { id: 7, label: 'Card 7', imgSrc: 'https://i.ibb.co.com/6s2Qn39/Valus7.jpg' },
-    { id: 8, label: 'Card 8', imgSrc: 'https://i.ibb.co.com/JcHDPFS/Valus8.jpg' },
+    { id: 1, label: 'Global Organic Textile Standard', imgSrc: value1 },
+    { id: 2, label: 'WRAP', imgSrc: value2 },
+    { id: 3, label: 'Responsible Forestry Certified', imgSrc: value3 },
+    { id: 4, label: 'Global Recycled Standard', imgSrc: value4 },
+    { id: 5, label: 'Card 5', imgSrc: value5 },
+    { id: 6, label: 'Card 6', imgSrc: value6 },
+    { id: 7, label: 'Card 7', imgSrc: value7 },
+    { id: 8, label: 'Card 8', imgSrc: value8 },
+    { id: 9, label: 'Card 9', imgSrc: value9 },
+    { id: 10, label: 'Card 10', imgSrc: value10 },
+    { id: 11, label: 'Card 11', imgSrc: value11 },
+    { id: 12, label: 'Card 12', imgSrc: value12 },
+    { id: 13, label: 'Card 13', imgSrc: value13 },
   ];
 
   const cardsToShow = 4;

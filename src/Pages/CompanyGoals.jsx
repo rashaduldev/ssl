@@ -1,4 +1,3 @@
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
@@ -15,8 +14,8 @@ const CompanyGoals = () => {
       </h2>
 
       {/* Description */}
-      <p className="text-sm md:text-lg text-center mb-8 px-5 md:px20 py-3">
-      Company objectives are measurable and effectively describe the actions required to accomplish a task. Objectives define the techniques your organization will use to achieve sales success, customer service standards, and branding opportunities as well as any other measurable aspirations.
+      <p className="text-sm md:text-lg text-center mb-8 max-w-7xl px-5 md:px20 py-3">
+      Our goal is to provide our clients with high-quality products that meet their quality expectations. SSL employs quality assurance staff to assist in the selection of manufacturers who manufacture products according to Standards set by our policy, principles, and guidelines. The latest technology is being used by buyer own portal, therefore the buyer will get real-time updates on the products.
       </p>
 
       {/* Call to Action Button */}

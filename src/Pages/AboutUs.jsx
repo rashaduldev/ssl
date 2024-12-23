@@ -25,20 +25,14 @@ const AboutUs = () => {
           <div className="mt-4 md:mt-10 flex-1">
             <h3 className="text-4xl font-semibold mt-5"> About Our Company</h3>
             <p className="mt-4 text-gray-700 text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
-              accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            STYLORIUM SOURCING is prominent readymade garment sourcing, buying agent and exporter with a vision to deliver world-class service, quality solutions and value addition services to end products for the textile and non-Textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals. SSL presently located at Dhaka, Bangladesh.
+
             </p>
             <p className="mt-4 text-gray-700 text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
-              accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Apart from our sourcing and buying office we have our fabric sourcing office in India, Pakistan & China.
             </p>
             <p className="mt-4 text-gray-700 text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
-              accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p className="mt-4 text-gray-700 text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim, 
-              accumsan pulvinar sit ac, eu nunc. Ut accumsan quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            We have own fabric manufacturing, designing and sourcing facilities in Bangladesh . SSL offers apparel sourcing, production and quality assurance, supply chain solutions towards building a stake holding approach to business.
             </p>
           </div>
         </div>

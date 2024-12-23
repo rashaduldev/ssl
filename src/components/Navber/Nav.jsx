@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { CiMenuFries } from 'react-icons/ci';
 import CommonNav from './CommonNav';
+import headerimg from '../../assets/image/fontImage/headerImage.JPG';
 
 // eslint-disable-next-line react/prop-types
 const Nav = ({ isVisible }) => {
@@ -17,7 +18,7 @@ const Nav = ({ isVisible }) => {
         {/* Logo */}
         <NavLink to="/">
           <div>
-            <img className="w-10 h-10 md:w-16 md:h-14 ml-10" src="https://i.ibb.co/n8mynVc/logo.jpg" alt="Logo" />
+            <img className="w-10 h-10 md:w-16 md:h-14 ml-10" src={headerimg} alt="Logo" />
             <p className="md:text-sm text-[12px] italic pt-1 font-bold">100% Export Oriented</p>
           </div>
         </NavLink>

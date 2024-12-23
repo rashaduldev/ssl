@@ -1,23 +1,37 @@
 import { useEffect, useState } from 'react';
 import videoSrc from '../../assets/video/garment_video.mp4'; // Import your video
 // import ShineText from '../ShineText';
+import img1 from '../../assets/image/fontImage/headerImg/iso-14001.png';
+import img2 from '../../assets/image/fontImage/headerImg/iso-9001.png';
+import img3 from '../../assets/image/fontImage/headerImg/companyNo.JPG';
+import img4 from '../../assets/image/fontImage/headerImg/Certificate9.png';
+import img5 from '../../assets/image/fontImage/headerImg/Certificate8.png';
+import img6 from '../../assets/image/fontImage/headerImg/Certificate6.png';
+import img7 from '../../assets/image/fontImage/headerImg/Certificate10.png';
+import img8 from '../../assets/image/fontImage/headerImg/Certificate11.png';
+import img9 from '../../assets/image/fontImage/headerImg/Certificate12.png';
+import img10 from '../../assets/image/fontImage/headerImg/Certificate4.png';
+import img11 from '../../assets/image/fontImage/headerImg/Certificate14.png';
+import img12 from '../../assets/image/fontImage/headerImg/Certificate15.png';
+import img13 from '../../assets/image/fontImage/headerImg/Certificate5.png';
+import img14 from '../../assets/image/fontImage/headerImg/accord.png';
 
 const Hero = () => {
   const images = [
-    'https://i.ibb.co.com/XFLT6FZ/accord.png',
-    'https://i.ibb.co.com/6bTYQDj/Certificate4.png',
-    'https://i.ibb.co.com/NY7rXqy/Certificate5.png',
-    'https://i.ibb.co.com/NWpV6Zs/Certificate6.png',
-    'https://i.ibb.co.com/6RzBG3F/Certificate8.png',
-    'https://i.ibb.co.com/yp7ZLdZ/Certificate9.png',
-    'https://i.ibb.co.com/Bs3QrQt/Certificate10.png',
-    'https://i.ibb.co.com/6rvcK4R/Certificate11.png',
-    'https://i.ibb.co.com/k27z90G/Certificate12.png',
-    'https://i.ibb.co.com/VCzqQcX/Certificate14.png',
-    'https://i.ibb.co.com/N1gbTmp/Certificate15.png',
-    'https://i.ibb.co.com/rZDcBCM/company-No.jpg',
-    'https://i.ibb.co.com/1Mq0fyM/iso-9001.png',
-    'https://i.ibb.co.com/CvJhRY6/iso-14001.png',
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
   ];
   const [currentImage, setCurrentImage] = useState(0);
   const [playCount, setPlayCount] = useState(0);

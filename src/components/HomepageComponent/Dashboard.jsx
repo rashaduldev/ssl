@@ -1,4 +1,6 @@
-
+import whoweare from '../../assets/image/fontImage/whoweare.JPG'
+import whatwedo from '../../assets/image/fontImage/whatwedo.JPG'
+import dashboard3rdimg from '../../assets/image/fontImage/dashboard3rdimg.JPG'
 
 // eslint-disable-next-line react/prop-types
 const ProgressBar = ({ label, percentage, color }) => {
@@ -12,7 +14,6 @@ const ProgressBar = ({ label, percentage, color }) => {
                 ></div>
                 <span className="text-gray-700 text-sm font-semibold">{percentage}%</span>
             </div>
-            
         </div>
     );
 };
@@ -38,7 +39,7 @@ const Dashboard = () => {
                     <figure>
                         <img
                         className='w-full h-56'
-                        src="https://i.ibb.co.com/MpHW6fM/content-Image.jpg"
+                        src={whoweare}
                         alt="Shoes" />
                     </figure>
                     </div>
@@ -55,7 +56,7 @@ const Dashboard = () => {
                     <figure>
                         <img
                         className='w-full h-56'
-                        src="https://i.ibb.co.com/vDNXM4F/content-Image1.jpg"
+                        src={whatwedo}
                         alt="Shoes" />
                     </figure>
                     </div>
@@ -64,7 +65,7 @@ const Dashboard = () => {
                     <figure>
                         <img
                         className='w-full h-56'
-                        src="https://i.ibb.co.com/TrBSD9X/content-Image2.jpg"
+                        src={dashboard3rdimg}
                         alt="Shoes" />
                     </figure>
                     </div>

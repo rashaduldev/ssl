@@ -1,15 +1,23 @@
-
+import img1 from '../../assets/image/bgImage/image.JPG';
+import img2 from '../../assets/image/bgImage/image1.JPG';
+import img3 from '../../assets/image/bgImage/image2.JPG';
+import img4 from '../../assets/image/bgImage/image3.JPG';
+import img5 from '../../assets/image/bgImage/image4.JPG';
+import img6 from '../../assets/image/bgImage/image5.JPG';
+import img7 from '../../assets/image/bgImage/image6.JPG';
+import img8 from '../../assets/image/bgImage/image7.JPG';
+import img9 from '../../assets/image/bgImage/image8.JPG';
 const CardGrid = () => {
   const cards = [
-    { id: 1, name: 'Long History', description: 'Stylorium Sourcing attains many features which are unique in the export industry and contribute heavily on the success incl. the implementation of the latest ERP software.', imgSrc: 'https://i.ibb.co.com/z7dxbm6/image.jpg' },
-    { id: 2, name: 'Strong CSR Team', description: 'We have a very talented CSR team who ensure Social Compliance as per local & customer CSR demands. Stylorium also has a digital platform for CSR from where customers can get exact factory information regarding any CSR issues.', imgSrc: 'https://i.ibb.co.com/jkb7y3v/image1.jpg' },
-    { id: 3, name: 'Own Design', description: 'Our design team presents new trends which are currently demanded. Samples of our designs are given to our customers. To support upcoming trends.', imgSrc: 'https://i.ibb.co.com/P9x3WKX/image2.jpg' },
-    { id: 4, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: 'https://i.ibb.co.com/sjf1V4V/image3.jpg' },
-    { id: 5, name: 'Special QA Team', description: 'To ensure quality, Stylorium has A highly trained Quality Assurance Team who ensure 100% quality as per customer standard.', imgSrc: 'https://i.ibb.co.com/cY5yQC0/image4.jpg' },
-    { id: 6, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: 'https://i.ibb.co.com/n6RJTdR/image5.jpg' },
-    { id: 7, name: 'Own Design', description: 'Focusing on key functionalities, Card 7 delivers specific benefits that make it a valuable choice for users.', imgSrc: 'https://i.ibb.co.com/cY5yQC0/image4.jpg' },
-    { id: 8, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: 'https://i.ibb.co.com/sjf1V4V/image3.jpg' },
-    { id: 9, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: 'https://i.ibb.co.com/c8tgVXD/image8.jpg' },
+    { id: 1, name: 'Long History', description: 'Stylorium Sourcing attains many features which are unique in the export industry and contribute heavily on the success incl. the implementation of the latest ERP software.', imgSrc: img1 },
+    { id: 2, name: 'Strong CSR Team', description: 'We have a very talented CSR team who ensure Social Compliance as per local & customer CSR demands. Stylorium also has a digital platform for CSR from where customers can get exact factory information regarding any CSR issues.', imgSrc: img2 },
+    { id: 3, name: 'Own Design', description: 'Our design team presents new trends which are currently demanded. Samples of our designs are given to our customers. To support upcoming trends.', imgSrc: img3 },
+    { id: 4, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img4 },
+    { id: 5, name: 'Special QA Team', description: 'To ensure quality, Stylorium has A highly trained Quality Assurance Team who ensure 100% quality as per customer standard.', imgSrc: img5 },
+    { id: 6, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img6 },
+    { id: 7, name: 'Own Design', description: 'Focusing on key functionalities, Card 7 delivers specific benefits that make it a valuable choice for users.', imgSrc: img7 },
+    { id: 8, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img8 },
+    { id: 9, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img9 },
   ];
 
   return (

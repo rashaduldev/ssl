@@ -14,11 +14,8 @@ const MissionInfographic = () => {
       {/* Mission */}
       <div className="bg-[#d8ca0b] text-white p-6 flex flex-col justify-center">
         <h2 className="text-3xl font-bold">OUR MISSION</h2>
-        <p className="mt-4 text-md">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p className="mt-4 text-md">
-          Senectus urna vestibulum tincidunt turpis venenatis. Auctor tristique justo cras cubilia curabitur.
+        <p className="mt-4 text-lg">
+        Setting up an ethical business standard by providing a safe and rewarding work environment, implementing Eco-friendly technologies through trained and knowledgeable work force to offer highest level of customer satisfaction. Ensuring sustainable growth through innovation, research and operational efficiencies.
         </p>
       </div>
       <div className="flex justify-center items-center bg-gray-100">
@@ -30,22 +27,16 @@ const MissionInfographic = () => {
       </div>
       <div className="bg-orange-600 text-white p-6 flex flex-col justify-center">
         <h2 className="text-3xl font-bold">OUR VISION</h2>
-        <p className="mt-4 text-md">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p className="mt-4 text-md">
-          Senectus urna vestibulum tincidunt turpis venenatis. Auctor tristique justo cras cubilia curabitur.
+        <p className="mt-4 text-lg">
+        Our vision is to comprehensive procurement management, world class sourcing, product development services with assurance, competitive pricing, and being the fast turnaround time with world class service and supply chain leader in the export industries.
         </p>
       </div>
 
       {/* Values */}
       <div className="bg-teal-600 text-white p-6 flex flex-col justify-center">
         <h2 className="text-3xl font-bold">OUR VALUES</h2>
-        <p className="mt-4 text-md">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p className="mt-4 text-md">
-          Senectus urna vestibulum tincidunt turpis venenatis. Auctor tristique justo cras cubilia curabitur.
+        <p className="mt-4 text-lg">
+        It is an undying fact that in this fascinating world what sizzling today is not so tomorrow. Our continuous effort and expertise in this field makes us to show the latest and the best in terms of fashion and innovation.
         </p>
       </div>
       <div className="flex justify-center items-center bg-gray-100">

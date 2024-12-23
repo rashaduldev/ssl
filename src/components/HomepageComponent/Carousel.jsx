@@ -1,4 +1,13 @@
 import { useState, useRef } from 'react';
+import Certificate1 from '../../assets/image/fontImage/Certificate1.png'
+import Certificate2 from '../../assets/image/fontImage/Certificate2.png'
+import Certificate3 from '../../assets/image/fontImage/Certificate3.png'
+import Certificate4 from '../../assets/image/fontImage/Certificate4.png'
+import Certificate5 from '../../assets/image/fontImage/Certificate5.png'
+import Certificate6 from '../../assets/image/fontImage/Certificate6.png'
+import Certificate7 from '../../assets/image/fontImage/Certificate7.png'
+import Certificate8 from '../../assets/image/fontImage/Certificate8.png'
+import Certificate9 from '../../assets/image/fontImage/Certificate9.png'
 
 const CardCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,14 +16,15 @@ const CardCarousel = () => {
   const [dragOffset, setDragOffset] = useState(0);
 
   const cards = [
-    { id: 1, label: 'Global Organic Textile Standard', imgSrc: 'https://i.ibb.co/Pzw1MpP/Certificate13.jpg' },
-    { id: 2, label: 'WRAP', imgSrc: 'https://i.ibb.co/n7m4zby/Certificate16.jpg' },
-    { id: 3, label: 'Responsible Forestry Certified', imgSrc: 'https://i.ibb.co/BfB9V78/Certificate1.png' },
-    { id: 4, label: 'Global Recycled Standard', imgSrc: 'https://i.ibb.co/DkbBm8d/Certificate2.png' },
-    { id: 5, label: 'Card 5', imgSrc: 'https://i.ibb.co/cYxQtg2/Certificate3.png' },
-    { id: 6, label: 'Card 6', imgSrc: 'https://i.ibb.co/9GnLYXc/Certificate6.png' },
-    { id: 7, label: 'Card 7', imgSrc: 'https://i.ibb.co/kDWqdjw/Certificate7.png' },
-    { id: 8, label: 'Card 8', imgSrc: 'https://i.ibb.co/4JJpq9z/Certificate9-01.png' },
+    { id: 1, label: 'Global Organic Textile Standard', imgSrc: Certificate1 },
+    { id: 2, label: 'WRAP', imgSrc: Certificate2 },
+    { id: 3, label: 'Responsible Forestry Certified', imgSrc: Certificate3 },
+    { id: 4, label: 'Global Recycled Standard', imgSrc: Certificate4 },
+    { id: 5, label: 'Card 5', imgSrc: Certificate5 },
+    { id: 6, label: 'Card 6', imgSrc: Certificate6 },
+    { id: 7, label: 'Card 7', imgSrc: Certificate7 },
+    { id: 8, label: 'Card 8', imgSrc: Certificate8 },
+    { id: 9, label: 'Card 9', imgSrc: Certificate9 },
   ];
 
   const cardsToShow = 4;
