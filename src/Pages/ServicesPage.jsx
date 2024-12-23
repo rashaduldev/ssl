@@ -1,5 +1,7 @@
 import Nav from "../components/Navber/Nav";
-
+import services from '../assets/image/complians/services.jpg'
+import servicescover from '../assets/image/complians/servicescover.jpg'
+import vedio from '../assets/video/Why_choose_SSL.mp4'
 const ServicesPage = () => {
   return (
    <div>
@@ -10,10 +12,10 @@ const ServicesPage = () => {
   {/* Main Section */}
   <div
     className="relative bg-cover bg-center h-[600px]"
-    style={{ backgroundImage: "url('https://i.ibb.co.com/6gB7tsx/Servises.jpg')" }}
+    style={{ backgroundImage: `url(${servicescover})` }}
   >
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div className="absolute inset-0 bg-black bg-opacity-80"></div>
 
     {/* Content */}
     <div className="relative flex flex-col items-center justify-center h-full text-white text-center px-4">
@@ -89,32 +91,24 @@ const ServicesPage = () => {
 
         {/* Right Video */}
         <div className="lg:w-1/2 mt-8 lg:mt-0 lg:ml-16">
-          <div className="relative">
-            <video
-              className="w-full h-auto rounded-lg shadow-lg"
-              controls
-              poster="https://via.placeholder.com/600x400"
-            >
-              <source
-                src="https://www.w3schools.com/html/mov_bbb.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-white p-3 rounded-full shadow-lg">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  className="h-10 w-10 text-red-600"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M6.79 5.093a.5.5 0 0 0-.79.407v5a.5.5 0 0 0 .79.407l4-2.5a.5.5 0 0 0 0-.814l-4-2.5z" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className="relative">
+    <video
+      className="w-full h-auto rounded-lg shadow-lg"
+      // controlss
+      autoPlay
+      muted
+      loop
+      // poster="https://via.placeholder.com/600x400"
+    >
+      <source
+        src={vedio}
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
       </div>
     </section>
 
@@ -194,7 +188,7 @@ const ServicesPage = () => {
         {/* Right Section */}
         <div className="flex-1 ">
           <img
-            src="https://i.ibb.co.com/6gB7tsx/Servises.jpg"
+            src={services}
             alt="img"
             className="rounded-lg mx-auto h-[760px] w-full shadow-lg"
           />

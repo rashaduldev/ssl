@@ -245,7 +245,7 @@ const TestimonialSlider = () => {
             key={index}
             className="flex-shrink-0 w-[400px] h-[400px] p-4"
           >
-            <div className="bg-white shadow-lg rounded-lg p-6 text-center h-full flex flex-col justify-between  cursor-pointer">
+            <div className="bg-white border rounded-lg p-6 text-center h-full flex flex-col justify-between  cursor-pointer">
               <div>
                 <img
                   src={testimonial.image}

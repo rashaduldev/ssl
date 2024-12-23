@@ -12,6 +12,7 @@ import { FaDribbbleSquare, FaFacebook, FaLinkedin, FaYoutube } from "react-icons
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialLastFmCircular } from "react-icons/ti";
 import logo from '../../assets/image/fontImage/headerImage.JPG';
+import semo from '../../assets/image/semo.jpeg';
 
 const Footer = () => {
   return (
@@ -73,7 +74,7 @@ const Footer = () => {
           </div>
           <a className="link link-hover text-lg font-bold mt-5">Sisters of concern</a>
           <div className="flex gap-2 w-4/6">
-            <img className="h-8 w-8 rounded" src="https://i.ibb.co.com/7K8cVGp/sisterconcern.jpg" alt="" />
+            <img className="h-8 w-8 rounded" src={semo} alt="" />
             <span className="">
             SIMO TEX
             </span>

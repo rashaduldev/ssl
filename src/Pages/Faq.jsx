@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from '../components/SecondNavImg';
+import faqbgimg from '../assets/image/faq.jpg';
 
 const Faq = () => {
   const [openItem, setOpenItem] = useState(null);
@@ -28,7 +29,7 @@ const Faq = () => {
    <div>
      <Nav isVisible={true} />
        {/* <div className="mt-[111px] container mx-auto"> */}
-       <SecondNavImg text="Faq Page" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+       <SecondNavImg text="Faq Page" img={faqbgimg}/>
      <section className="bg-gray-50 min-h-screen py-10">
       <div className="container mx-auto px-6">
         <div className="text-center pb-6">

@@ -1,11 +1,12 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import quality from '../assets/image/quality.jpg';
 
 const QualityPage = () => {
   return (
    <div>
     <Nav isVisible={true} />
-    <SecondNavImg text="Quality" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+    <SecondNavImg text="Quality" img={quality}/>
          <div className="container mx-auto px-4 py-10">
       {/* Title Section */}
      

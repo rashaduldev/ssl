@@ -8,6 +8,7 @@ import Certificate6 from '../../assets/image/fontImage/Certificate6.png'
 import Certificate7 from '../../assets/image/fontImage/Certificate7.png'
 import Certificate8 from '../../assets/image/fontImage/Certificate8.png'
 import Certificate9 from '../../assets/image/fontImage/Certificate9.png'
+import carosulebg from '../../assets/image/carosulebg.png'
 
 const CardCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -67,7 +68,7 @@ const CardCarousel = () => {
   return (
     <div
       className="relative bg-cover bg-center h-[450px] my-8"
-      style={{ backgroundImage: 'url(https://i.ibb.co/7YCyQ6d/background-2.png)' }}
+      style={{ backgroundImage: `url(${carosulebg})` }}
     >
       <div className="flex justify-center items-center h-full relative">
         <button

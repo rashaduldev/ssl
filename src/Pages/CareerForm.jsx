@@ -1,11 +1,12 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import career from '../assets/image/career.jpg';
 
 const CareerForm = () => {
   return (
     <div>
         <Nav isVisible={true} />
-        <SecondNavImg text="Career" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+        <SecondNavImg text="Career" img={career}/>
         <div className="flex flex-col items-center min-h-screen bg-white">
       <div className=" max-w-5xl mt-20 text-3xl">
         <p className="text-gray-700 mb-4 text-3xl">

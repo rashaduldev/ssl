@@ -18,8 +18,8 @@ const Nav = ({ isVisible }) => {
         {/* Logo */}
         <NavLink to="/">
           <div>
-            <img className="w-10 h-10 md:w-16 md:h-14 ml-10" src={headerimg} alt="Logo" />
-            <p className="md:text-sm text-[12px] italic pt-1 font-bold">100% Export Oriented</p>
+            <img className="w-10 h-10 md:w-16 md:h-14 ml-[73px]" src={headerimg} alt="Logo" />
+            <p className="md:text-sm text-[12px] italic pt-1 font-bold">100% Export Oriented Company</p>
           </div>
         </NavLink>
 

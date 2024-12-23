@@ -1,4 +1,6 @@
 import Nav from "../components/Navber/Nav";
+import logoimg from "../assets/image/fontImage/headerImage.JPG";
+import mdphoto from "../assets/image/MD.JPG";
 
 const Md = () => {
   return (
@@ -14,7 +16,7 @@ const Md = () => {
       <div className="p-8 px-10">
         {/* Company Logo and Name */}
         <div className="flex items-center mb-6">
-          <img src="https://i.ibb.co/n8mynVc/logo.jpg" alt="Company Logo" className="h-16 mr-4" /> {/* Replace with actual logo path */}
+          <img src={logoimg} alt="Company Logo" className="h-16 mr-4" /> {/* Replace with actual logo path */}
           <h1 className="text-lg md:text-4xl font-bold text-gray-800">Stylorium Sourcing Ltd.</h1>
         </div>
         
@@ -34,7 +36,7 @@ const Md = () => {
         
         {/* Right Image */}
         <div className="w-[20%]">
-          <img src="https://i.ibb.co.com/7t8C70R/MD.jpg" alt="CEO" className="md:w-64 md:h-64 w-20 h-20 object-cover rounded-lg shadow-md" /> {/* Replace with actual image path */}
+          <img src={mdphoto} alt="CEO" className="md:w-64 md:h-64 w-20 h-20 object-cover rounded-lg shadow-md" /> {/* Replace with actual image path */}
         </div>
           </div>
           <div>

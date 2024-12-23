@@ -1,5 +1,9 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import plan from '../assets/image/complians/plan.png';
+import doo from '../assets/image/complians/do.png';
+import check from '../assets/image/complians/check.png';
+import act from '../assets/image/complians/act.png';
 
 const CompliancePage = () => {
   return (
@@ -17,8 +21,8 @@ const CompliancePage = () => {
         </div>
         {/* Compliance Goals */}
         <div className="text-center p-6 w-full rounded-lg">
-          <h3 className="text-xl font-bold mb-4">COMPLIANCE GOALS</h3>
-          <ul className="text-gray-600 space-y-2 text-lg mx-auto">
+          <h3 className="text-2xl font-bold mb-4">COMPLIANCE GOALS</h3>
+          <ul className="text-gray-600 space-y-2 text-xl mx-auto">
             <li className="flex flex-row justify-center items-center">
               <span className="text-green-500 font-bold mb-1">✔</span>
               <span className="text-center">
@@ -47,11 +51,11 @@ const CompliancePage = () => {
             {/* PLAN */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.ibb.co.com/gSykWyN/plan.png"
+                src={plan}
                 alt="Plan Icon"
                 className="w-96 h-96 mx-auto mb-4"
               />
-              <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
                   <span>Yearly & monthly audit schedule.</span>
@@ -78,11 +82,11 @@ const CompliancePage = () => {
             {/* DO */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.ibb.co.com/syvYqDV/do.png"
+                src={doo}
                 alt="Do Icon"
                 className="w-96 h-96 mx-auto mb-4"
               />
-              <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
                   <span>Assessment & creating report.</span>
@@ -112,11 +116,11 @@ const CompliancePage = () => {
             {/* ACT */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.ibb.co.com/s3vB3H7/act.png"
+                src={act}
                 alt="Act Icon"
                 className="w-96 h-96 mx-auto mb-4"
               />
-              <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
                   <span>Development visit & proper guidance.</span>
@@ -139,11 +143,11 @@ const CompliancePage = () => {
             {/* CHECK */}
             <div className="text-center p-6 bg-white rounded-lg">
               <img
-                src="https://i.ibb.co.com/Z8z7KCF/check.png"
+                src={check}
                 alt="Check Icon"
                 className="w-96 h-96 mx-auto mb-4"
               />
-              <ul className="text-sm text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-2">✔</span>
                   <span>Follow-up audit.</span>
