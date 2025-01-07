@@ -30,22 +30,29 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
+  
     try {
       const result = await emailjs.send(
-        "service_l3x3av4", // Replace with your service ID
-        "template_2jpygwn", // Replace with your template ID
+        // "service_l3x3av4", 
+        // "template_2jpygwn", 
+        // formData,
+        // "5kuYCmxA4PaI2QFt4" 
+        "service_hajc4wn", 
+        "template_y3tyqpq", 
         formData,
-        "5kuYCmxA4PaI2QFt4" // Replace with your user ID
+        "r3p7NL-T5QFcUdJy2" 
       );
+      console.log(result); // Debugging line
       setStatus("Message sent successfully!");
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
+      console.log(error); // Debugging line
       setStatus("Error sending message. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
   };
+  
 
   const particlesLoaded = (container) => {
     console.log(container);
