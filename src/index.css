@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Text colour #495598 */
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
