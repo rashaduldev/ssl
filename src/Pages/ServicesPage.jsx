@@ -15,11 +15,11 @@ const ServicesPage = () => {
     style={{ backgroundImage: `url(${servicescover})` }}
   >
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black bg-opacity-80"></div>
+    <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
     {/* Content */}
     <div className="relative flex flex-col items-center justify-center h-full text-white text-center px-4">
-      <h2 className="text-3xl font-bold">Our Services</h2>
+      <h2 className="text-5xl font-bold">Our Services</h2>
       <p className="mt-2 text-lg">Reliable Apparel Best Manufacturing Solution</p>
     </div>
   </div>
@@ -80,8 +80,8 @@ const ServicesPage = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-lg font-bold">Our Mission:</h3>
-              <p>
+              <h3 className="text-xl font-bold">Our Mission:</h3>
+              <p className="text-xl">
                 Our mission is to deliver high-quality, stylish, and sustainable
                 garments that meet the diverse needs of our global customers.
               </p>
@@ -125,12 +125,12 @@ const ServicesPage = () => {
         <h1 className="text-3xl font-bold mt-2">
           We’ve been create building for over 10 years
         </h1>
-        <p className="text-gray-600 mt-4 max-w-3xl">
-          At BRANDTEX International, we recognize the critical importance of time
-          and information within the value chain. That’s why we proudly refer to
-          ourselves as value managers. Our mission is to enhance efficiency and
-          deliver value to your operations, consistently and under any
-          circumstances.
+        <p className="text-gray-600 mt-4 text-xl max-w-3xl">
+        Stylorium Sourcing Ltd is committed to provide our best customer service and quality assurance at a very competitive price. We provide our customer with samples and inspiration from our collection. In addition, our designer prepares our own design and converts customer concepts in to a real product. We are associated with top rated factories (Woven, jersey and Flat Bed Knitwear) in Bangladesh, India and Pakistan, who are highly organized quality products. Our comprehensive services are not only limited to the best sourcing house, buying arrangement, meeting with best manufacturer in the industry, sample development, sample approval, production quality control and timely shipment but also we take more ownership and responsibilities on our shoulders on your behalf in order to make sure risks are minimized and quality of products are not compromised.
+        </p>
+        <p className="text-xl mt-4">
+        We have dynamic, talented and well-experienced team with a great office structure, including fabric sourcing, garment technologist & compliance. Range of product that we offer for women’s wear, Men’s wear and children wear as well as Non-Textile item.
+
         </p>
       </div>
           {/* Value Point 1 */}
@@ -138,49 +138,17 @@ const ServicesPage = () => {
             <h3 className="font-semibold text-lg text-gray-800">
               To Our Clients Who Let Us Keep On Moving
             </h3>
-            <ul className="text-gray-600 mt-2 space-y-2 list-disc pl-5">
-              <li>We ensure the right price, right quality, and on-time delivery.</li>
-              <li>We believe in building long-term valued business partnerships.</li>
-            </ul>
-          </div>
-
-          {/* Value Point 2 */}
-          <div>
-            <h3 className="font-semibold text-lg text-gray-800">To Those Who Work With Us</h3>
-            <ul className="text-gray-600 mt-2 space-y-2 list-disc pl-5">
-              <li>We recruit and retain the right people in the right position.</li>
-              <li>
-                They must be educated, experienced, capable, and ethical.
-              </li>
-              <li>We treat them with dignity and fairness.</li>
-            </ul>
-          </div>
-
-          {/* Value Point 3 */}
-          <div>
-            <h3 className="font-semibold text-lg text-gray-800">To Our Shareholders</h3>
-            <ul className="text-gray-600 mt-2 space-y-2 list-disc pl-5">
-              <li>Business must make sound profit with reasonable growth in every year.</li>
-            </ul>
-          </div>
-
-          {/* Value Point 4 */}
-          <div>
-            <h3 className="font-semibold text-lg text-gray-800">To Our Supplier</h3>
-            <ul className="text-gray-600 mt-2 space-y-2 list-disc pl-5">
-              <li>To build partnership through mutual trust and respect.</li>
-              <li>We work together in delivering common goals.</li>
-            </ul>
-          </div>
-
-          {/* Value Point 5 */}
-          <div>
-            <h3 className="font-semibold text-lg text-gray-800">
-              To The Community And The Country We Are Doing Business
-            </h3>
-            <ul className="text-gray-600 mt-2 space-y-2 list-disc pl-5">
-              <li>We contribute to the community by creating new jobs.</li>
-              <li>We generate more foreign currencies through more exports.</li>
+            <ul className="text-gray-600 mt-2 space-y-2 text-xl list-disc pl-5">
+            <li><strong>Woven</strong> – Tops, bottoms, dresses, and tailoring.</li>
+  <li><strong>Outerwear</strong> – Jackets and coats.</li>
+  <li><strong>Jersey</strong> – Tops, bottoms, dresses, sleepwear.</li>
+  <li><strong>Flat Knit</strong> – From 3GG to 14GG.</li>
+  <li><strong>Circular Knit</strong> – Jersey and heavy knit.</li>
+  <li><strong>Footwear</strong> – Leather and synthetic.</li>
+  <li><strong>Household</strong> – All kinds of household items. ISCC, RSC, GRS, etc., certified.</li>
+  <li><strong>Gloves</strong> – Leather gloves, working gloves, gardening gloves.</li>
+  <li><strong>Wooden Items</strong> – All kinds of wooden items.</li>
+  <li><strong>Payment Mode</strong> – We accept sales contract TT, L/C, DAP.</li>
             </ul>
           </div>
         </div>

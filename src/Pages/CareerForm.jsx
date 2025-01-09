@@ -1,6 +1,6 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
-import career from '../assets/image/career.jpg';
+import career from '../assets/image/Career.jpeg';
 
 const CareerForm = () => {
   return (

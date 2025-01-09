@@ -32,7 +32,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsxRqM6OA5dP-dTM9Bb1MzAmACVlx-2MMb3g5MCQotyIYSEIu99Fu2MD17eQh4kTCWWQ&usqp=CAU"
           ],
           "productName": ["Silk Pajamas", "Cotton Nightgown", "Flannel Sleepwear"],
-          "video": "../src/assets/video/Valus.mp4"
+          "video": "../src/assets/video/Innter_garments.mp4"
         },
         {
           "name": "footware",
@@ -156,7 +156,7 @@
     {
       "name": "bed sheets",
       "productName": ["Cotton Bed Sheet", "Silk Bed Sheet", "Printed Bed Sheet"],
-      "video": "../src/assets/video/Valus.mp4",
+      "video": "../src/assets/video/Home-Textile.mp4",
       "images": [
         "https://example.com/home-textile/bedsheet1.jpg",
         "https://example.com/home-textile/bedsheet2.jpg",

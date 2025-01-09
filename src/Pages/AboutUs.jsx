@@ -1,23 +1,21 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
 import TestimonialSlider from "./AboutUsTeammember";
+import navBgimg from '../assets/image/About-us-top-image.jpeg'
 
 const AboutUs = () => {
   return (
     <div>
       {/* Fixed Navigation Bar */}
       <Nav isVisible={true} />
-
-      {/* Main content with padding to avoid overlapping with the fixed Nav */}
       <div className="">
         {/* Header */}
-        <SecondNavImg text="About Us" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
-
+        <SecondNavImg text="About Us" img={navBgimg}/>
         {/* Image and About Section */}
         <div className="md:flex space-x-8 container mx-auto mt-10">
           <div className="flex-1">
             <img
-              src="https://i.ibb.co.com/fCBJzsY/aboutus.png" // Replace with your image URL
+              src="https://i.ibb.co.com/fCBJzsY/aboutus.png"
               alt=" About Our Company"
               className="rounded-md w-full h-[80%]"
             />

@@ -4,16 +4,17 @@ import plan from '../assets/image/complians/plan.png';
 import doo from '../assets/image/complians/do.png';
 import check from '../assets/image/complians/check.png';
 import act from '../assets/image/complians/act.png';
+import navBgimg from '../assets/image/Compliance_Top_Image.jpeg'
 
 const CompliancePage = () => {
   return (
     <div>
       <Nav isVisible={true} />
-      <SecondNavImg text="COMPLIANCE" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+      <SecondNavImg text="COMPLIANCE" img={navBgimg}/>
       <div className="">
-        <div className="bg-green-300">
+        <div className="">
           <p className="container mx-auto py-10 text-6xl tracking-widers gruppo-regular">
-          Stylorium Sourcing Ltd uses the Plan . . .
+          Stylorium Sourcing Ltd uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity.
           </p>
         </div>
         <div className="container mx-auto my-5">
@@ -53,7 +54,7 @@ const CompliancePage = () => {
               <img
                 src={plan}
                 alt="Plan Icon"
-                className="w-96 h-96 mx-auto mb-4"
+                className="w-[16rem] h-[15rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -84,7 +85,7 @@ const CompliancePage = () => {
               <img
                 src={doo}
                 alt="Do Icon"
-                className="w-96 h-96 mx-auto mb-4"
+                className="w-[16rem] h-[15rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -118,7 +119,7 @@ const CompliancePage = () => {
               <img
                 src={act}
                 alt="Act Icon"
-                className="w-96 h-96 mx-auto mb-4"
+                className="w-[16rem] h-[15rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -145,7 +146,7 @@ const CompliancePage = () => {
               <img
                 src={check}
                 alt="Check Icon"
-                className="w-96 h-96 mx-auto mb-4"
+                className="w-[16rem] h-[15rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">

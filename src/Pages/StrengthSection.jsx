@@ -1,11 +1,12 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import navBgimg from '../assets/image/Strength_Top_Image.jpg'
 
 const StrengthSection = () => {
   return (
     <div>
          <Nav isVisible={true} />
-         <SecondNavImg text="Strength" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+         <SecondNavImg text="Strength" img={navBgimg}/>
         <section className="bg-gray-100 py-8 px-6 md:px-16 lg:px-32">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Strength</h2>

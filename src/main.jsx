@@ -10,7 +10,6 @@ import Homepage from './Pages/Homepage';
 import AboutUs from './Pages/AboutUs';
 import Faq from './Pages/Faq';
 import ContactPage from './Pages/Contact';
-import ProductGallery from './Pages/ProductGellary';
 import Errorpage from './Pages/Errorpage';
 import Organogram from './Pages/Organogram';
 import MissionInfographic from './Pages/Mission';
@@ -64,10 +63,6 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage/>,
-      },
-      {
-        path: "/gallery",
-        element: <ProductGallery/>,
       },
       {
         path: "/our-company/mission",

@@ -3,9 +3,9 @@ import { FiMessageCircle } from "react-icons/fi";
 
 const OurConcept = () => {
   return (
-    <div className="bg-white py-10 px-4 md:px-16">
+    <div className="bg-white py-10 px-4 mb-10 md:px-16">
       {/* Header */}
-      <div className="flex flex-col items-center justify-center py-10 bg-white">
+      <div className="flex flex-col items-center justify-center pt-10 bg-white">
         {/* Title Section */}
         <div className="relative text-center">
           <h2 className="text-5xl font-bold text-[#495598]">Our Concept</h2>
@@ -54,11 +54,13 @@ const OurConcept = () => {
       </div>
 
       {/* Timeline Container */}
-      <div className="relative flex flex-col items-center md:items-start">
+      <div className="relative flex flex-col items-center -mt-32 md:-mt-20 md:items-start">
         {/* Vertical Center Line */}
         <div
-          className="absolute top-28 bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-gray-300"
-          style={{ height: `calc(100% - 15rem)` }}
+          className="absolute top-48 md:top-24 bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-gray-300"
+          style={{
+            height: window.innerWidth >= 768 ? 'calc(100% - 9rem)' : 'calc(100% - 15rem)',
+          }}
         />
 
         {/* Steps */}
@@ -120,17 +122,18 @@ const OurConcept = () => {
 const Step = ({ position, number, title, description, iconColor }) => {
   return (
     <div
-      className={`relative flex w-full -mb-5 ${position === "left" ? "justify-start" : "justify-end"}`}
+      className={`relative flex w-full mt-20 md:mt-0 -mb-5 ${position === "left" ? "justify-start" : "justify-end"}`}
     >
       {/* Step Content */}
       <div
-        className={`flex items-center ${position === "left" ? "flex-row-reverse" : "flex-row"} w-full md:w-1/2`}
+        className={`flex items-center md:gap-0 gap-7 ${position === "left" ? "flex-row-reverse" : "flex-row"} w-full md:w-1/2`}
       >
         {/* Icon */}
         <div
           className={`absolute left-1/2 transform -translate-x-1/2 z-10 w-8 h-8 flex items-center justify-center bg-white border-4 border-gray-300 rounded-full`}
         >
           <FaCircle className={`text-xs ${iconColor}`} />
+          
         </div>
         <h1 className="flex items-center gap-1">
           <FaRegCircle className={`text-xs ${iconColor}`} />
@@ -156,12 +159,12 @@ const Step = ({ position, number, title, description, iconColor }) => {
 
         {/* Text Box */}
         <div
-          className={`mt-24 p-4 bg-white rounded-md ml-4 ${position === "left" ? "text-right" : "text-left"}`}
+          className={`mt-16 p-0 bg-white rounded-md ml-4 ${position === "left" ? "text-right" : "text-left"}`}
         >
           <h3 className={`font-bold text-sm md:text-lg ${iconColor}`}>
             {number}. {title}
           </h3>
-          <p className="text-gray-600 text-xl md:text-sm max-w-sm">{description}</p>
+          <p className="text-gray-600 md:text-xl text-sm max-w-sm">{description}</p>
         </div>
       </div>
     </div>

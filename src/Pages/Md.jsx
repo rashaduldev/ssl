@@ -1,6 +1,7 @@
 import Nav from "../components/Navber/Nav";
 import logoimg from "../assets/image/fontImage/headerImage.JPG";
 import mdphoto from "../assets/image/MD.JPG";
+import signature from "../assets/image/signature.png"
 
 const Md = () => {
   return (
@@ -8,8 +9,8 @@ const Md = () => {
     <Nav isVisible={true}/>
           <div className="border border-gray-300 rounded-lg shadow-lg container mx-auto my-8 bg-white mt-36">
       {/* Top Border */}
-      <div className="h-10 bg-red-600 relative">
-        <div className="absolute inset-x-0 top-0 h-10 bg-red-800" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 0% 100%)' }}></div>
+      <div className="h-10 bg-[#3e53c7] relative">
+        <div className="absolute inset-x-0 top-0 h-10 bg-[#4d578d]" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 0% 100%)' }}></div>
       </div>
       
       {/* Content */}
@@ -51,13 +52,13 @@ const Md = () => {
         
         {/* Signature Section */}
         <div className="mt-8">
-          <img src="https://i.ibb.co.com/XpHHQsC/signature.png" alt="logo" />
+          <img src={signature} alt="Signature" />
         </div>
       </div>
 
       {/* Bottom Border */}
-      <div className="h-10 bg-red-600 relative">
-        <div className="absolute inset-x-0 top-0 h-10 bg-red-800" style={{ clipPath: 'polygon(100% 0%, 0% 0%, 100% 100%)' }}></div>
+      <div className="h-10 bg-[#3e53c7] relative">
+        <div className="absolute inset-x-0 top-0 h-10 bg-[#4d578d]" style={{ clipPath: 'polygon(100% 0%, 0% 0%, 100% 100%)' }}></div>
       </div>
       
       {/* Footer */}

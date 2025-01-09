@@ -37,7 +37,7 @@ const CardGrid = () => {
             </div>
             <div className="mt-4">
               <h3 className="font-bold text-2xl mb-3">{card.name}</h3>
-              <p className="text-gray-700 font-bold">{card.description}</p>
+              <p className="text-gray-500 font-bold">{card.description}</p>
             </div>
           </div>
         ))}

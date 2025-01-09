@@ -12,7 +12,7 @@ const SecondNavImg = ({ img, text }) => {
       }}
     >
       {/* Black Overlay */}
-      <div className="absolute inset-0 bg-black opacity-80"></div>
+      <div className="absolute inset-0 bg-black opacity-40"></div>
 
       <div className="container mx-auto relative z-10 flex items-center justify-center h-full">
         <div className="text-center text-white uppercase">

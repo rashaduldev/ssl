@@ -1,4 +1,4 @@
-import whoweare from '../../assets/image/fontImage/whoweare.JPG'
+import whoweare from '../../assets/image/fontImage/who_we_are.jpeg'
 import whatwedo from '../../assets/image/fontImage/whatwedo.JPG'
 import dashboard3rdimg from '../../assets/image/fontImage/dashboard3rdimg.JPG'
 

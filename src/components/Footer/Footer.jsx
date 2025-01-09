@@ -25,16 +25,15 @@ const Footer = () => {
       <div className="container mx-auto footer p-10">
         <nav className="">
         <div className="text-lg mb-5">
-          <img className="w-16 h-14 ml-10"   src={logo} alt="" />
-        <p className='italic pt-1 font-bold text-lg'>100% ExportOriented Company</p>
+          <img className="w-16 h-14 text-center mx-auto"   src={logo} alt="" />
+        <p className='italic pt-1 font-bold text-lg'>100% Export Oriented Company</p>
         </div>
           <h6 className="font-bold text-white text-2xl">Stylorium Sourcing Ltd.</h6>
           <a className="link link-hover text-lg">Corporate Headquarters</a>
-          <div className="w-4/6 text-lg flex items-start">
+          <div className="w-4/6 text-lg mt-3 flex items-start">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="ml-2">
-              AM Tower (Level-6), Plot# 25, Sonargaon Janapath Road Sector# 12,
-              Uttara, Dhaka - 1230
+            <span className="ml-2 -mt-5">
+            House: 43 (Level-5), Road: 17, Uttara, Dhaka-1230, Bangladesh
             </span>
           </div>
           <div className="flex gap-2 text-lg items-center">
@@ -58,21 +57,27 @@ const Footer = () => {
         <nav className="text-lg">
           {/* <h6 className="footer-title"></h6> */}
           <a className="link link-hover ml-2 text-lg font-bold md:mt-16">India Office</a>
-          <div className="flex gap-2 w-4/6">
+          <div className="flex gap-2 mt-3 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="">
-              Flat. N5 Crest View Jewel Richmond, Rajagiri Valley Kakkanad,
-              Kochi, Kerala, India
+            <span className="-mt-5">
+            Flat: N5 Crest View
+Jewel Richmond, Rajagiri Valley
+       Kakkanad, Kochi, Kerala
+                      India
             </span>
           </div>
-          <a className="link link-hover text-lg font-bold mt-5">Pakistan Office</a>
-          <div className="flex gap-2 w-4/6">
+          <a className="link link-hover text-lg font-bold">Pakistan Office</a>
+          <div className="flex gap-2 mt-3 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="">
-            Corporate Headquarters, Pakistan Office, Sister Concern
+            <span className="-mt-5">
+            Dynasty Tower
+    Adjacent Ocean Mall,
+         14th Floor, 1401
+   Clifton block 9. Karachi
+                Pakistan
             </span>
           </div>
-          <a className="link link-hover text-lg font-bold mt-5">Sisters of concern</a>
+          <a className="link link-hover text-lg font-bold mt-5">Sisters concern</a>
           <div className="flex gap-2 w-4/6">
             <img className="h-8 w-8 rounded" src={semo} alt="" />
             <span className="">

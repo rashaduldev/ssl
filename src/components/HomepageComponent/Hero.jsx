@@ -1,20 +1,17 @@
 import { useEffect, useState } from 'react';
 import videoSrc from '../../assets/video/garment_video.mp4'; // Import your video
 // import ShineText from '../ShineText';
-import img1 from '../../assets/image/fontImage/headerImg/iso-14001.png';
-import img2 from '../../assets/image/fontImage/headerImg/iso-9001.png';
-import img3 from '../../assets/image/fontImage/headerImg/companyNo.JPG';
-import img4 from '../../assets/image/fontImage/headerImg/Certificate9.png';
-import img5 from '../../assets/image/fontImage/headerImg/Certificate8.png';
-import img6 from '../../assets/image/fontImage/headerImg/Certificate6.png';
-import img7 from '../../assets/image/fontImage/headerImg/Certificate10.png';
-import img8 from '../../assets/image/fontImage/headerImg/Certificate11.png';
-import img9 from '../../assets/image/fontImage/headerImg/Certificate12.png';
-import img10 from '../../assets/image/fontImage/headerImg/Certificate4.png';
-import img11 from '../../assets/image/fontImage/headerImg/Certificate14.png';
-import img12 from '../../assets/image/fontImage/headerImg/Certificate15.png';
-import img13 from '../../assets/image/fontImage/headerImg/Certificate5.png';
-import img14 from '../../assets/image/fontImage/headerImg/accord.png';
+import img1 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate1.png';
+import img2 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate10.png';
+import img3 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate11.png';
+import img4 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate2.png';
+import img5 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate3.png';
+import img6 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate4.png';
+import img7 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate5.png';
+import img8 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate6.png';
+import img9 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate7.png';
+import img10 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate8.png';
+import img11 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate9.png';
 
 const Hero = () => {
   const images = [
@@ -29,9 +26,6 @@ const Hero = () => {
     img9,
     img10,
     img11,
-    img12,
-    img13,
-    img14,
   ];
   const [currentImage, setCurrentImage] = useState(0);
   const [playCount, setPlayCount] = useState(0);
@@ -64,18 +58,18 @@ const Hero = () => {
         <div>
          <div className=''>
          {/* <ShineText /> */}
-         <div className="header-test mt-5">
+         <div className="header-test text-3xl md:text-7xl leading-[60px] md:leading-[125px] mt-5">
                 <h1>Stylorium Sourcing Ltd</h1>
             </div>
-            <p className="text-white md:text-lg text-sm w-[80%] mx-auto">Stylorium Sourcing is a 100% export Oriented trader, exporter, importer & manufacturer integrated in high value textile & non <br />  textile product. Company started its journey since 2020 and established its WAY TOWARDS SUSTAINABILITY vision in
-                2030. Corporate office is located at Dhaka ,Bangladesh.
+            <p className="text-white md:text-lg text-sm w-[80%] mx-auto">
+              Stylorium Sourcing is a 100% export Oriented trader, exporter, importer & manufacturer integrated in high value textile & non <br />  textile product. Company started its journey since 2020 and established its WAY TOWARDS SUSTAINABILITY vision in
+              2030. Corporate office is located at Dhaka ,Bangladesh.
             </p>
          </div>
-         
         </div>
       </div>
 
-      <div className="absolute bottom-1 right-1 md:w-60 md:h-32 w-40 h-20 p-0">
+      <div className="absolute bottom-2 right-0 md:w-60 md:h-32 w-40 h-20 p-0">
         <img src={images[currentImage]} alt="Partner" className="w-full h-full object-cover" />
       </div>
 

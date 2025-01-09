@@ -75,7 +75,7 @@ const QualityPage = () => {
      </div>
 
       {/* Innovation Section */}
-      <div className="md:-mt-16">
+      <div className="mt-5">
         <h2 className="text-3xl font-bold mb-4 text-gray-900">Innovation</h2>
         <p className="text-2xl text-gray-700 leading-relaxed">
           We are constantly looking forward to new fabrics, accessories, washes, print, and embroidery techniques. In this way, we use our shore-to-shore sourcing network to offer the greatest variety to our customers. We are also constantly trying to improve the production processes in our local and foreign fabric sourcing team.

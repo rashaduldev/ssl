@@ -55,8 +55,6 @@
   }
 }
 .header-test h1 {
-  font-size: 66px;
-  line-height: 142px;
   margin-left: -10px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
@@ -67,13 +65,6 @@
   background-position: 0 0;
   animation: back 10s linear 0.5s infinite forwards;
 }
-@media (max-width: 425px) {
-  .header-test h1 {
-    font-size: 40px;
-    line-height: 72px;
-  }
-}
-
 @keyframes back {
   from {
     background-position: 0% 0%;

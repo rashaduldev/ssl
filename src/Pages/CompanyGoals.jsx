@@ -1,12 +1,13 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
+import navBgimg from '../assets/image/Company-Goal-Top.jpg'
 
 const CompanyGoals = () => {
   return (
    <div>
      <Nav isVisible={true} />
-     <SecondNavImg text="Goal" img="https://i.ibb.co/4jK4Xx1/download.jpg"/>
+     <SecondNavImg text="Goal" img={navBgimg}/>
      <div className="bg-blue-500 text-white py-16 px-4 flex flex-col items-center rounded-lg shadow-md container mx-auto mt-20">
       {/* Title */}
       <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
@@ -17,12 +18,6 @@ const CompanyGoals = () => {
       <p className="text-sm md:text-lg text-center mb-8 max-w-7xl px-5 md:px20 py-3">
       Our goal is to provide our clients with high-quality products that meet their quality expectations. SSL employs quality assurance staff to assist in the selection of manufacturers who manufacture products according to Standards set by our policy, principles, and guidelines. The latest technology is being used by buyer own portal, therefore the buyer will get real-time updates on the products.
       </p>
-
-      {/* Call to Action Button */}
-      <button className="px-8 py-3 font-semibold border-2 border-white rounded-full hover:bg-white text-white hover:text-blue-500 transition-all">
-        Call To Action
-      </button>
-
       {/* Background Decorative Circles */}
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
         <div className="absolute bg-blue-400 opacity-20 rounded-full h-40 w-40 top-10 left-10"></div>
