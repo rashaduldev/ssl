@@ -32,7 +32,7 @@ const Footer = () => {
           <a className="link link-hover text-lg">Corporate Headquarters</a>
           <div className="w-4/6 text-lg mt-3 flex items-start">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="ml-2 -mt-5">
+            <span className="ml-2 -mt-2">
             House: 43 (Level-5), Road: 17, Uttara, Dhaka-1230, Bangladesh
             </span>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
           <a className="link link-hover ml-2 text-lg font-bold md:mt-16">India Office</a>
           <div className="flex gap-2 mt-3 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="-mt-5">
+            <span className="-mt-2">
             Flat: N5 Crest View
 Jewel Richmond, Rajagiri Valley
        Kakkanad, Kochi, Kerala
@@ -69,7 +69,7 @@ Jewel Richmond, Rajagiri Valley
           <a className="link link-hover text-lg font-bold">Pakistan Office</a>
           <div className="flex gap-2 mt-3 w-4/6">
             <FontAwesomeIcon icon={faHouseChimney} />
-            <span className="-mt-5">
+            <span className="-mt-2">
             Dynasty Tower
     Adjacent Ocean Mall,
          14th Floor, 1401

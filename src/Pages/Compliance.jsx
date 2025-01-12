@@ -13,7 +13,7 @@ const CompliancePage = () => {
       <SecondNavImg text="COMPLIANCE" img={navBgimg}/>
       <div className="">
         <div className="">
-          <p className="container mx-auto py-10 text-6xl tracking-widers gruppo-regular">
+          <p className="container mx-auto py-10 text-2xl md:text-[1.75rem] tracking-widers gruppo-regular">
           Stylorium Sourcing Ltd uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity.
           </p>
         </div>
@@ -54,7 +54,7 @@ const CompliancePage = () => {
               <img
                 src={plan}
                 alt="Plan Icon"
-                className="w-[16rem] h-[15rem] mx-auto mb-4"
+                className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -85,7 +85,7 @@ const CompliancePage = () => {
               <img
                 src={doo}
                 alt="Do Icon"
-                className="w-[16rem] h-[15rem] mx-auto mb-4"
+                className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -119,7 +119,7 @@ const CompliancePage = () => {
               <img
                 src={act}
                 alt="Act Icon"
-                className="w-[16rem] h-[15rem] mx-auto mb-4"
+                className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">
@@ -146,7 +146,7 @@ const CompliancePage = () => {
               <img
                 src={check}
                 alt="Check Icon"
-                className="w-[16rem] h-[15rem] mx-auto mb-4"
+                className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
               <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
                 <li className="flex items-start">

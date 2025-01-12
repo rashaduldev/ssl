@@ -107,7 +107,7 @@ const CategoryDisplay = () => {
                   poster="/assets/images/placeholder.jpg" // Optional
                 >
                   <source
-                    src={`/${videoSrc}`} // Use the dynamic video path from JSON
+                    src={`${videoSrc}`} // Use the dynamic video path from JSON
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.

@@ -26,7 +26,7 @@ const ContactPage = () => {
                 <CiLocationOn />
               </span>
               <h4 className="font-bold text-lg">VISIT OUR OFFICE</h4>
-              <p>AM Tower (Level-6), Plot# 25, Sonargaon Janapath Road Sector# 12, Uttara, Dhaka - 1230</p>
+              <p>House: 43 (Level-5), Road: 17, Uttara, Dhaka-1230, Bangladesh</p>
             </div>
 
             {/* Card 2 */}

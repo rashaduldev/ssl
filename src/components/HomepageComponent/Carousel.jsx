@@ -1,43 +1,46 @@
-import { useState, useRef } from 'react';
-import Certificate1 from '../../assets/image/fontImage/Certificate1.png'
-import Certificate2 from '../../assets/image/fontImage/Certificate2.png'
-import Certificate3 from '../../assets/image/fontImage/Certificate3.png'
-import Certificate4 from '../../assets/image/fontImage/Certificate4.png'
-import Certificate5 from '../../assets/image/fontImage/Certificate5.png'
-import Certificate6 from '../../assets/image/fontImage/Certificate6.png'
-import Certificate7 from '../../assets/image/fontImage/Certificate7.png'
-import Certificate8 from '../../assets/image/fontImage/Certificate8.png'
-import Certificate9 from '../../assets/image/fontImage/Certificate9.png'
-import carosulebg from '../../assets/image/carosulebg.png'
+import { useState, useRef, useEffect } from "react";
+import Certificate1 from "../../assets/image/fontImage/Certificate1.png";
+import Certificate2 from "../../assets/image/fontImage/Certificate2.png";
+import Certificate3 from "../../assets/image/fontImage/Certificate3.png";
+import Certificate4 from "../../assets/image/fontImage/Certificate4.png";
+import Certificate5 from "../../assets/image/fontImage/Certificate5.png";
+import Certificate6 from "../../assets/image/fontImage/Certificate6.png";
+import Certificate7 from "../../assets/image/fontImage/Certificate7.png";
+import Certificate8 from "../../assets/image/fontImage/Certificate8.png";
+import Certificate9 from "../../assets/image/fontImage/Certificate9.png";
+import carosulebg from "../../assets/image/carosulebg.png";
 
 const CardCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   const cards = [
-    { id: 1, label: 'Global Organic Textile Standard', imgSrc: Certificate1 },
-    { id: 2, label: 'WRAP', imgSrc: Certificate2 },
-    { id: 3, label: 'Responsible Forestry Certified', imgSrc: Certificate3 },
-    { id: 4, label: 'Global Recycled Standard', imgSrc: Certificate4 },
-    { id: 5, label: 'Card 5', imgSrc: Certificate5 },
-    { id: 6, label: 'Card 6', imgSrc: Certificate6 },
-    { id: 7, label: 'Card 7', imgSrc: Certificate7 },
-    { id: 8, label: 'Card 8', imgSrc: Certificate8 },
-    { id: 9, label: 'Card 9', imgSrc: Certificate9 },
+    { id: 1, label: "Global Organic Textile Standard", imgSrc: Certificate1 },
+    { id: 2, label: "WRAP", imgSrc: Certificate2 },
+    { id: 3, label: "Responsible Forestry Certified", imgSrc: Certificate3 },
+    { id: 4, label: "Global Recycled Standard", imgSrc: Certificate4 },
+    { id: 5, label: "Card 5", imgSrc: Certificate5 },
+    { id: 6, label: "Card 6", imgSrc: Certificate6 },
+    { id: 7, label: "Card 7", imgSrc: Certificate7 },
+    { id: 8, label: "Card 8", imgSrc: Certificate8 },
+    { id: 9, label: "Card 9", imgSrc: Certificate9 },
   ];
 
   const cardsToShow = 4;
   const containerRef = useRef(null);
 
   const nextSlide = () => {
+    setIsAnimating(true);
     setCurrentIndex((prevIndex) =>
       prevIndex + 1 < cards.length - (cardsToShow - 1) ? prevIndex + 1 : 0
     );
   };
 
   const prevSlide = () => {
+    setIsAnimating(true);
     setCurrentIndex((prevIndex) =>
       prevIndex - 1 < 0 ? cards.length - cardsToShow : prevIndex - 1
     );
@@ -46,6 +49,7 @@ const CardCarousel = () => {
   const handleMouseDown = (e) => {
     setIsDragging(true);
     setStartX(e.clientX);
+    setIsAnimating(false); // Disable animation while dragging
   };
 
   const handleMouseMove = (e) => {
@@ -63,7 +67,17 @@ const CardCarousel = () => {
       nextSlide();
     }
     setDragOffset(0);
+    setIsAnimating(true); // Re-enable animation after dragging
   };
+
+  // Autoplay functionality
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 2000); // Change slide every 3 seconds
+
+    return () => clearInterval(interval); // Clear interval on component unmount
+  }, []);
 
   return (
     <div
@@ -86,7 +100,9 @@ const CardCarousel = () => {
           onMouseLeave={handleMouseUp}
         >
           <div
-            className="flex transition-transform duration-300"
+            className={`flex ${
+              isAnimating ? "transition-transform duration-500 ease-in-out" : ""
+            }`}
             style={{
               transform: `translateX(calc(-${currentIndex * (100 / cardsToShow)}% + ${dragOffset}px))`,
             }}

@@ -76,7 +76,7 @@ const BottomCarousel = () => {
   };
 
   const startAutoplay = () => {
-    autoplayInterval.current = setInterval(nextSlide, 3000); // Change slides every 3 seconds
+    autoplayInterval.current = setInterval(nextSlide, 2000); // Change slides every 3 seconds
   };
 
   const stopAutoplay = () => {
@@ -117,9 +117,9 @@ const BottomCarousel = () => {
             Value
           </h1>
           <div
-            className="flex transition-transform duration-300 gap-5 cursor-pointer"
+            className="flex transition-transform duration-300 ease-in-out gap-5 cursor-pointer"
             style={{
-              transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)`,
+              transform: `translateX(calc(-${currentIndex * (100 / cardsToShow)}% + ${dragOffset}px))`,
             }}
           >
             {cards.map((card) => (
@@ -128,7 +128,7 @@ const BottomCarousel = () => {
                   <img
                     src={card.imgSrc}
                     alt={card.label}
-                    className="w-[250px] h-60 rounded-md border"
+                    className="w-[200px] h-[13rem] rounded-md border"
                   />
                 </div>
               </div>
