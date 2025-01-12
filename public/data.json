@@ -12,7 +12,7 @@
             "https://m.media-amazon.com/images/I/51BifxnGWfL._AC_UY1100_.jpg"
           ],
           "productName": ["Casual Top", "Formal Blouse", "Summer Tank"],
-          "video": "src/assets/video/women-topss.mp4"
+          "video": "/src/assets/video/women-topss.mp4"
         },
         {
           "name": "jens",
@@ -22,7 +22,7 @@
             "https://tailoredathlete.co.uk/cdn/shop/files/TA-WOMENS-28-04-23375461_1200x.jpg?v=1688654954"
           ],
           "productName": ["Skinny Jeans", "Bootcut Denim", "Straight-Leg Jeans"],
-          "video": "src/assets/video/women_jens.mp4"
+          "video": "/src/assets/video/women_jens.mp4"
         },
         {
           "name": "nightware",
@@ -32,7 +32,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsxRqM6OA5dP-dTM9Bb1MzAmACVlx-2MMb3g5MCQotyIYSEIu99Fu2MD17eQh4kTCWWQ&usqp=CAU"
           ],
           "productName": ["Silk Pajamas", "Cotton Nightgown", "Flannel Sleepwear"],
-          "video": "src/assets/video/Innter_garments.mp4"
+          "video": "/src/assets/video/Innter_garments.mp4"
         },
         {
           "name": "footware",
@@ -42,7 +42,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAcGj1VbSdfB4-oIAL8EGKN-LRFBfRMs_XA&s"
           ],
           "productName": ["Leather Boots", "Canvas Sneakers", "Ballet Flats"],
-          "video": "src/assets/video/women_footware.mp4"
+          "video": "/src/assets/video/women_footware.mp4"
         }
       ]
     },
@@ -58,7 +58,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQWd3nC1tj49VE1CpPKmMr_XAz80UVT6kUw&s"
           ],
           "productName": ["Basic T-Shirt", "Polo Shirt", "Long Sleeve Shirt"],
-          "video": "src/assets/video/Men_jackets.mp4"
+          "video": "/src/assets/video/Men_jackets.mp4"
         },
         {
           "name": "jackets",
@@ -68,7 +68,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR72wVqmlQ1daCLiENXDxsy6JVDPgXO5nWJA&s"
           ],
           "productName": ["Leather Jacket", "Bomber Jacket", "Winter Coat"],
-          "video": "src/assets/video/Men_jackets.mp4"
+          "video": "/src/assets/video/Men_jackets.mp4"
         },
         {
           "name": "nightware",
@@ -88,7 +88,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwsw8hJ6yoTPPXdAbmupYyrBsHGNtdLznIgw&s"
           ],
           "productName": ["Running Shoes", "Loafers", "Boots"],
-          "video": "src/assets/video/men_shoose.mp4"
+          "video": "/src/assets/video/men_shoose.mp4"
         }
       ]
     },
@@ -104,7 +104,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
           ],
           "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "/src/assets/video/Kids.mp4"
         },
         {
           "name": "jackets",
@@ -114,7 +114,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
           ],
           "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "/src/assets/video/Kids.mp4"
         },
         {
           "name": "underware",
@@ -124,7 +124,7 @@
             "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
           ],
           "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "/src/assets/video/Kids.mp4"
         },
         {
           "name": "footware",
@@ -134,7 +134,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
           ],
           "productName": ["Sneakers", "Boots", "Sandals"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "/src/assets/video/Kids.mp4"
         }
       ]
     },
@@ -147,7 +147,7 @@
         "https://example.com/kids/tops3.jpg"
       ],
       "productName": ["Sunglasses", "Bags", "Watches"],
-      "video": "src/assets/video/Valus.mp4"
+      "video": "/src/assets/video/Valus.mp4"
     },
     {
   "id": 5,
@@ -156,7 +156,7 @@
     {
       "name": "bed sheets",
       "productName": ["Cotton Bed Sheet", "Silk Bed Sheet", "Printed Bed Sheet"],
-      "video": "src/assets/video/Home-Textile.mp4",
+      "video": "/src/assets/video/Home-Textile.mp4",
       "images": [
         "https://example.com/home-textile/bedsheet1.jpg",
         "https://example.com/home-textile/bedsheet2.jpg",
@@ -166,7 +166,7 @@
     {
       "name": "curtains",
       "productName": ["Blackout Curtains", "Sheer Curtains", "Velvet Curtains"],
-      "video": "src/assets/video/Valus.mp4",
+      "video": "/src/assets/video/Valus.mp4",
       "images": [
         "https://example.com/home-textile/curtain1.jpg",
         "https://example.com/home-textile/curtain2.jpg",
@@ -182,7 +182,7 @@
     {
       "name": "decor",
       "productName": ["Wall Art", "Vases", "Candles"],
-      "video": "src/assets/video/Valus.mp4",
+      "video": "/src/assets/video/Valus.mp4",
       "images": [
         "https://example.com/non-textile/decor1.jpg",
         "https://example.com/non-textile/decor2.jpg",
@@ -192,7 +192,7 @@
     {
       "name": "kitchenware",
       "productName": ["Cookware Set", "Cutlery Set", "Storage Containers"],
-      "video": "src/assets/video/Valus.mp4",
+      "video": "/src/assets/video/Valus.mp4",
       "images": [
         "https://example.com/non-textile/kitchenware1.jpg",
         "https://example.com/non-textile/kitchenware2.jpg",
