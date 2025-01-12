@@ -2,6 +2,7 @@ import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
 import TestimonialSlider from "./AboutUsTeammember";
 import navBgimg from '../assets/image/About-us-top-image.jpeg'
+import aboutusimg from '../assets/image/aboutus.jpeg'
 
 const AboutUs = () => {
   return (
@@ -15,15 +16,15 @@ const AboutUs = () => {
         <div className="md:flex space-x-8 container mx-auto mt-10">
           <div className="flex-1">
             <img
-              src="https://i.ibb.co.com/fCBJzsY/aboutus.png"
+              src={aboutusimg}
               alt=" About Our Company"
               className="rounded-md w-full h-[80%]"
             />
           </div>
-          <div className="mt-4 md:mt-10 flex-1">
+          <div className="mt-4 md:mt-0 flex-1">
             <h3 className="text-4xl font-semibold mt-5"> About Our Company</h3>
             <p className="mt-4 text-gray-700 text-lg">
-            STYLORIUM SOURCING is prominent readymade garment sourcing, buying agent and exporter with a vision to deliver world-class service, quality solutions and value addition services to end products for the textile and non-Textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals. SSL presently located at Dhaka, Bangladesh.
+            STYLORIUM SOURCING LTD is prominent readymade garment sourcing, buying agent and exporter with a vision to deliver world-class service, quality solutions and value addition services to end products for the textile and non-Textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals. SSL presently located at Dhaka, Bangladesh.
 
             </p>
             <p className="mt-4 text-gray-700 text-lg">

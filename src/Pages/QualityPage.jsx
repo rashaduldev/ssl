@@ -1,6 +1,7 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
-import quality from '../assets/image/quality.jpg';
+import quality from '../assets/image/quality.jpeg';
+import qualityvedio from '../assets/video/Quality.mp4';
 
 const QualityPage = () => {
   return (
@@ -70,7 +71,15 @@ const QualityPage = () => {
       </div>
         </div>
         <div className="flex-1 mx-auto">
-         <img className="h-[80%] mx-auto" src="https://i.ibb.co.com/PWRmSVC/image.png" alt="" />
+        <div className="flex-1 mx-auto">
+          <video 
+            src={qualityvedio} 
+            autoPlay 
+            loop 
+            muted 
+            className="w-full h-auto rounded-lg shadow-lg"
+          />
+        </div>
        </div>
      </div>
 
