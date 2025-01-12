@@ -12,7 +12,7 @@
             "https://m.media-amazon.com/images/I/51BifxnGWfL._AC_UY1100_.jpg"
           ],
           "productName": ["Casual Top", "Formal Blouse", "Summer Tank"],
-          "video": "/src/assets/video/women-topss.mp4"
+          "video": "src/assets/video/women-topss.mp4"
         },
         {
           "name": "jens",
