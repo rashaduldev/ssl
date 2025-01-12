@@ -22,7 +22,7 @@
             "https://tailoredathlete.co.uk/cdn/shop/files/TA-WOMENS-28-04-23375461_1200x.jpg?v=1688654954"
           ],
           "productName": ["Skinny Jeans", "Bootcut Denim", "Straight-Leg Jeans"],
-          "video": "src/assets/video/women_jens.mp4"
+          "video": "/assets/video/women_jens.mp4"
         },
         {
           "name": "nightware",
@@ -32,7 +32,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsxRqM6OA5dP-dTM9Bb1MzAmACVlx-2MMb3g5MCQotyIYSEIu99Fu2MD17eQh4kTCWWQ&usqp=CAU"
           ],
           "productName": ["Silk Pajamas", "Cotton Nightgown", "Flannel Sleepwear"],
-          "video": "src/assets/video/Innter_garments.mp4"
+          "video": "assets/video/Innter_garments.mp4"
         },
         {
           "name": "footware",
@@ -42,7 +42,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAcGj1VbSdfB4-oIAL8EGKN-LRFBfRMs_XA&s"
           ],
           "productName": ["Leather Boots", "Canvas Sneakers", "Ballet Flats"],
-          "video": "src/assets/video/women_footware.mp4"
+          "video": "/video/women_footware.mp4"
         }
       ]
     },
@@ -58,7 +58,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQWd3nC1tj49VE1CpPKmMr_XAz80UVT6kUw&s"
           ],
           "productName": ["Basic T-Shirt", "Polo Shirt", "Long Sleeve Shirt"],
-          "video": "src/assets/video/Men_jackets.mp4"
+          "video": "video/Men_jackets.mp4"
         },
         {
           "name": "jackets",
@@ -68,7 +68,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR72wVqmlQ1daCLiENXDxsy6JVDPgXO5nWJA&s"
           ],
           "productName": ["Leather Jacket", "Bomber Jacket", "Winter Coat"],
-          "video": "src/assets/video/Men_jackets.mp4"
+          "video": "/Men_jackets.mp4"
         },
         {
           "name": "nightware",
@@ -78,7 +78,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSije1ibh0rcqO53OAgLS7Zgxqti96KBLGMA&s"
           ],
           "productName": ["Cotton Pajamas", "Fleece Robe", "Sleep Shorts"],
-          "video": "src/assets/video/Men_jackets.mp4"
+          "video": "Men_jackets.mp4"
         },
         {
           "name": "footware",

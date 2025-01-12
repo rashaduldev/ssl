@@ -1,6 +1,6 @@
 import whoweare from '../../assets/image/fontImage/who_we_are.jpeg'
-import whatwedo from '../../assets/image/fontImage/whatwedo.JPG'
-import dashboard3rdimg from '../../assets/image/fontImage/dashboard3rdimg.JPG'
+import whatwedo from '../../assets/image/fontImage/whatwedo.jpeg'
+import dashboard3rdimg from '../../assets/image/fontImage/dashboard3rdimg.jpeg'
 
 // eslint-disable-next-line react/prop-types
 const ProgressBar = ({ label, percentage, color }) => {

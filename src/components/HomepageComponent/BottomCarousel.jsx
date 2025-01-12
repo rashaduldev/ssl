@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import vedio1 from '../../assets/video/Why_choose_SSL.mp4';
+import vedio1 from '../../assets/video/Why_choose_SSL_new.mp4';
 import value1 from '../../assets/image/fontImage/Valus1.png';
 import value2 from '../../assets/image/fontImage/Valus2.png';
 import value3 from '../../assets/image/fontImage/Valus3.png';
@@ -113,7 +113,7 @@ const BottomCarousel = () => {
           onMouseLeave={handleMouseUp}
           onMouseEnter={stopAutoplay} // Pause autoplay on hover
         >
-          <h1 className="text-5xl text-blue-600 bg-[#bdbdbdf5] p-5 w-[36%] md:w-[12%] container mx-auto text-center mb-10 rounded-lg">
+          <h1 className="text-5xl text-[#5164ce] bg-[#bdbdbdf5] p-5 w-[36%] md:w-[12%] container mx-auto text-center mb-10 rounded-lg">
             Value
           </h1>
           <div
